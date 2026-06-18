@@ -1,0 +1,17 @@
+{
+  "marketplaces": {
+    ".agents/plugins/marketplace.json": {
+      "name": "hongtao-curated",
+      "interface": {
+        "displayName": "Hongtao curated"
+      }
+    },
+    ".agents/plugins/api_marketplace.json": {
+      "name": "hongtao-api-curated",
+      "interface": {
+        "displayName": "Hongtao API curated"
+      }
+    }
+  },
+  "plugins": {}
+}

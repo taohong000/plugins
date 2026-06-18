@@ -50,6 +50,17 @@ jobs:
                 .agents/plugins/marketplace.json|.agents/plugins/api_marketplace.json)
                   git checkout --theirs -- "$file"
                   ;;
+                plugins/*/.codex-plugin/plugin.json)
+                  plugin_name="$(echo "$file" | cut -d / -f 2)"
+                  if jq -e --arg plugin_name "$plugin_name" \
+                    '.plugins | has($plugin_name)' \
+                    .agents/plugins/local-overrides.zh-CN.json >/dev/null; then
+                    git checkout --theirs -- "$file"
+                  else
+                    echo "::error::Manual conflict resolution required for $file"
+                    unexpected_conflict=1
+                  fi
+                  ;;
                 *)
                   echo "::error::Manual conflict resolution required for $file"
                   unexpected_conflict=1
@@ -63,21 +74,15 @@ jobs:
             fi
           fi
 
-      - name: Preserve local marketplace identity
+      - name: Apply local marketplace overrides
         run: |
           set -euo pipefail
 
-          tmp="$(mktemp)"
-          jq '.name = "hongtao-curated" | .interface.displayName = "Hongtao curated"' \
-            .agents/plugins/marketplace.json > "$tmp"
-          mv "$tmp" .agents/plugins/marketplace.json
+          python3 .agents/plugins/apply-local-overrides.py
 
-          tmp="$(mktemp)"
-          jq '.name = "hongtao-api-curated" | .interface.displayName = "Hongtao API curated"' \
-            .agents/plugins/api_marketplace.json > "$tmp"
-          mv "$tmp" .agents/plugins/api_marketplace.json
-
-          git add .agents/plugins/marketplace.json .agents/plugins/api_marketplace.json
+          git add .agents/plugins/marketplace.json \
+            .agents/plugins/api_marketplace.json \
+            plugins/*/.codex-plugin/plugin.json
 
       - name: Commit and push changes
         run: |
