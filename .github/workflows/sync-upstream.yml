@@ -1,0 +1,97 @@
+name: Sync upstream plugins
+
+on:
+  schedule:
+    # GitHub schedules use UTC. This runs daily at 02:15 Asia/Shanghai.
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository != 'openai/plugins'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge official upstream
+        run: |
+          set -euo pipefail
+
+          git remote add upstream https://github.com/openai/plugins.git 2>/dev/null || \
+            git remote set-url upstream https://github.com/openai/plugins.git
+          git fetch upstream main
+
+          set +e
+          git merge --no-ff --no-commit upstream/main
+          merge_status=$?
+          set -e
+
+          if [ "$merge_status" -ne 0 ]; then
+            unexpected_conflict=0
+
+            for file in $(git diff --name-only --diff-filter=U); do
+              case "$file" in
+                .agents/plugins/marketplace.json|.agents/plugins/api_marketplace.json)
+                  git checkout --theirs -- "$file"
+                  ;;
+                *)
+                  echo "::error::Manual conflict resolution required for $file"
+                  unexpected_conflict=1
+                  ;;
+              esac
+            done
+
+            if [ "$unexpected_conflict" -ne 0 ]; then
+              git merge --abort
+              exit 1
+            fi
+          fi
+
+      - name: Preserve local marketplace identity
+        run: |
+          set -euo pipefail
+
+          tmp="$(mktemp)"
+          jq '.name = "hongtao-curated" | .interface.displayName = "Hongtao curated"' \
+            .agents/plugins/marketplace.json > "$tmp"
+          mv "$tmp" .agents/plugins/marketplace.json
+
+          tmp="$(mktemp)"
+          jq '.name = "hongtao-api-curated" | .interface.displayName = "Hongtao API curated"' \
+            .agents/plugins/api_marketplace.json > "$tmp"
+          mv "$tmp" .agents/plugins/api_marketplace.json
+
+          git add .agents/plugins/marketplace.json .agents/plugins/api_marketplace.json
+
+      - name: Commit and push changes
+        run: |
+          set -euo pipefail
+
+          if git diff --cached --quiet; then
+            echo "No upstream changes to sync."
+            exit 0
+          fi
+
+          if git rev-parse -q --verify MERGE_HEAD >/dev/null; then
+            git commit -m "Sync upstream plugins"
+          else
+            git commit -m "Restore local marketplace identity"
+          fi
+
+          git push origin HEAD:main

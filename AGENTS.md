@@ -51,3 +51,19 @@ upstream syncs, even if the official repository changes the same files.
 When merge conflicts occur in these marketplace files, prefer official changes
 for plugin list updates, but keep the local `name` and `interface.displayName`
 values above.
+
+## Scheduled Sync
+
+The repository includes `.github/workflows/sync-upstream.yml` to sync from
+`https://github.com/openai/plugins` every day at 18:15 UTC, which is 02:15 in
+Asia/Shanghai.
+
+The workflow can also be started manually from GitHub Actions with
+`workflow_dispatch`. It merges `upstream/main`, preserves the local marketplace
+identity values listed above, commits any changes, and pushes them to `main`.
+
+If conflicts occur outside `.agents/plugins/marketplace.json` or
+`.agents/plugins/api_marketplace.json`, the workflow aborts and requires manual
+resolution. For conflicts in those two marketplace files, it keeps the official
+plugin list updates while restoring the local marketplace `name` and
+`interface.displayName` values.
