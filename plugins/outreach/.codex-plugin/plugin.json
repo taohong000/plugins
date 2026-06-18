@@ -1,7 +1,7 @@
 {
   "name": "outreach",
   "version": "1.0.2",
-  "description": "Sales engagement, prospects, sequences, and deal activity context",
+  "description": "销售互动、潜在客户、序列和交易活动上下文",
   "author": {
     "name": "Outreach",
     "url": "https://www.outreach.io"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Outreach",
-    "shortDescription": "Sales engagement, prospects, sequences, and deal activity context",
-    "longDescription": "Sales engagement, prospects, sequences, and deal activity context",
+    "shortDescription": "销售互动、潜在客户、序列和交易活动上下文",
+    "longDescription": "在 Codex 中使用 Outreach：销售互动、潜在客户、序列和交易活动上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Outreach",
     "category": "Business & Operations",
     "capabilities": [],
@@ -22,9 +22,7 @@
     "privacyPolicyURL": "https://www.outreach.io/privacy-policy",
     "termsOfServiceURL": "https://www.outreach.io/terms-of-service",
     "defaultPrompt": [
-      "Find stalled Outreach prospects and summarize the next best follow-up.",
-      "Search Outreach sequences for this account and summarize recent engagement.",
-      "Draft a concise Outreach follow-up using recent prospect activity."
+      "使用 Outreach 帮我分析业务数据并推进销售或运营动作。"
     ],
     "brandColor": "#5951FF",
     "composerIcon": "./assets/logo.png",

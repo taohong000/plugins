@@ -1,7 +1,7 @@
 {
   "name": "game-studio",
   "version": "0.1.2",
-  "description": "Design, prototype, and ship browser games with guided 2D and 3D workflows, asset pipelines, and playtesting support.",
+  "description": "设计、原型制作并发布浏览器游戏",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -24,8 +24,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Game Studio",
-    "shortDescription": "Design, prototype, and ship browser games",
-    "longDescription": "Plan, prototype, and build browser games with guided workflows for gameplay systems, UI, asset pipelines, and playtesting across 2D and 3D projects.",
+    "shortDescription": "设计、原型制作并发布浏览器游戏",
+    "longDescription": "在 Codex 中使用 Game Studio：设计、原型制作并发布浏览器游戏。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Developer Tools",
     "capabilities": [
@@ -36,7 +36,7 @@
     "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
     "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
     "defaultPrompt": [
-      "Design a browser game and plan the core loop"
+      "使用 Game Studio 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#0F766E",
     "composerIcon": "./assets/game-studio.svg",

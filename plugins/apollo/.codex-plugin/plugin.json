@@ -1,7 +1,7 @@
 {
   "name": "apollo",
   "version": "1.0.2",
-  "description": "B2B prospecting, account research, contacts, and outreach lists",
+  "description": "B2B 潜客开发、账户研究、联系人和外联名单",
   "author": {
     "name": "Apollo",
     "url": "https://www.apollo.io"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "Apollo",
     "developerName": "Apollo",
-    "shortDescription": "B2B prospecting, account research, contacts, and outreach lists",
-    "longDescription": "B2B prospecting, account research, contacts, and outreach lists",
+    "shortDescription": "B2B 潜客开发、账户研究、联系人和外联名单",
+    "longDescription": "在 Codex 中使用 Apollo：B2B 潜客开发、账户研究、联系人和外联名单。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Business & Operations",
     "capabilities": [],
     "brandColor": "#E8F028",
     "defaultPrompt": [
-      "Find verified contacts matching this ICP in Apollo and rank the best prospects.",
-      "Research a company in Apollo and identify decision makers for this use case.",
-      "Build an outreach list for this industry with recent growth or hiring signals."
+      "使用 Apollo 帮我分析业务数据并推进销售或运营动作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

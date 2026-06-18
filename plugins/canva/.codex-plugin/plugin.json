@@ -1,7 +1,7 @@
 {
   "name": "canva",
   "version": "1.0.2",
-  "description": "Search, create, edit designs",
+  "description": "搜索、创建和编辑设计",
   "author": {
     "name": "Canva",
     "url": "https://www.canva.com"
@@ -15,8 +15,8 @@
   "interface": {
     "displayName": "Canva",
     "developerName": "Canva",
-    "shortDescription": "Search, create, edit designs",
-    "longDescription": "Search, create, edit designs",
+    "shortDescription": "搜索、创建和编辑设计",
+    "longDescription": "在 Codex 中使用 Canva：搜索、创建和编辑设计。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Creativity",
     "capabilities": [],
     "websiteURL": "https://www.canva.com",
@@ -24,7 +24,7 @@
     "termsOfServiceURL": "https://www.canva.com/policies/terms-of-use/",
     "brandColor": "#00C4CC",
     "defaultPrompt": [
-      "Create or adapt a Canva design for presentations, resized social variants, or translated versions"
+      "使用 Canva 帮我创建、查找或优化相关创意素材。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

@@ -1,7 +1,7 @@
 {
   "name": "box",
   "version": "0.0.3",
-  "description": "Search and reference your documents",
+  "description": "搜索并引用你的文档",
   "author": {
     "name": "OpenAI",
     "url": "https://www.box.com/home"
@@ -14,8 +14,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Box",
-    "shortDescription": "Search and reference your documents",
-    "longDescription": "Search and reference your documents in Box and work safely with Box content flows from Codex.",
+    "shortDescription": "搜索并引用你的文档",
+    "longDescription": "在 Codex 中使用 Box：搜索并引用你的文档。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Productivity",
     "capabilities": [],
@@ -24,7 +24,7 @@
     "termsOfServiceURL": "https://www.box.com/legal/terms",
     "brandColor": "#0061D5",
     "defaultPrompt": [
-      "Find a Box file and summarize the key points"
+      "使用 Box 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "composerIcon": "./assets/app-icon.png",
     "logo": "./assets/app-icon.png",

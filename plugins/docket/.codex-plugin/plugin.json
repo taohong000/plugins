@@ -1,7 +1,7 @@
 {
   "name": "docket",
   "version": "1.0.3",
-  "description": "Docket AI makes your sales knowledge your instant superpower.",
+  "description": "让销售知识成为即时可用的超级能力",
   "author": {
     "name": "Docket AI",
     "url": "https://www.docket.io/"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Docket",
-    "shortDescription": "Docket AI makes your sales knowledge your instant superpower.",
-    "longDescription": "Docket AI makes your sales knowledge your instant superpower. Sales reps get accurate, on-demand answers to product, competitive, technical, and customer questions\u2014pulled directly from your unified Sales Knowledge Lake\u2122. Guided by verified company intel, reps handle objections confidently, uncover prospect details, and craft personalised responses on the spot.",
+    "shortDescription": "让销售知识成为即时可用的超级能力",
+    "longDescription": "在 Codex 中使用 Docket：让销售知识成为即时可用的超级能力。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Docket AI",
     "category": "Productivity",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://www.docket.io/privacy-policy",
     "termsOfServiceURL": "https://www.docket.io/terms-and-conditions",
     "defaultPrompt": [
-      "Check docket how our partnership with commonwealth bank"
+      "使用 Docket 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

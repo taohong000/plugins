@@ -1,7 +1,7 @@
 {
   "name": "stripe",
   "version": "1.0.2",
-  "description": "Payments and business tools",
+  "description": "支付和业务工具",
   "author": {
     "name": "Stripe",
     "url": "https://stripe.com"
@@ -15,8 +15,8 @@
   "interface": {
     "displayName": "Stripe",
     "developerName": "Stripe",
-    "shortDescription": "Payments and business tools",
-    "longDescription": "Payments and business tools",
+    "shortDescription": "支付和业务工具",
+    "longDescription": "在 Codex 中使用 Stripe：支付和业务工具。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Finance",
     "capabilities": [],
     "websiteURL": "https://stripe.com",
@@ -24,7 +24,7 @@
     "termsOfServiceURL": "https://stripe.com/legal/ssa",
     "brandColor": "#635BFF",
     "defaultPrompt": [
-      "Use Stripe to help with this task"
+      "使用 Stripe 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

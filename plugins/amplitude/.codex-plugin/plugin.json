@@ -1,7 +1,7 @@
 {
   "name": "amplitude",
   "version": "1.0.2",
-  "description": "Product analytics and funnels",
+  "description": "产品分析和转化漏斗",
   "author": {
     "name": "Amplitude"
   },
@@ -11,13 +11,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Amplitude",
-    "shortDescription": "Product analytics and funnels",
-    "longDescription": "Product analytics and funnels",
+    "shortDescription": "产品分析和转化漏斗",
+    "longDescription": "在 Codex 中使用 Amplitude：产品分析和转化漏斗。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Amplitude",
     "category": "Data & Analytics",
     "capabilities": [],
     "defaultPrompt": [
-      "Show the signup funnel trend in Amplitude"
+      "使用 Amplitude 帮我分析数据并总结洞察。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

@@ -1,7 +1,7 @@
 {
   "name": "motherduck",
   "version": "1.0.2",
-  "description": "Connect AI assistants to your MotherDuck data warehouse.",
+  "description": "把 AI 助手连接到 MotherDuck 数据仓库",
   "author": {
     "name": "MotherDuck Corporation",
     "url": "https://motherduck.com/"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "MotherDuck",
-    "shortDescription": "Connect AI assistants to your MotherDuck data warehouse.",
-    "longDescription": "Connect AI assistants to your MotherDuck data warehouse. Explore, visualize, and manage data using natural language\u2013no SQL skills required. Create Dives: interactive visualizations that let you save and share answers with your team, staying up-to-date with your latest data. Works with real-world data without requiring semantic models or pre-configuration. Your AI assistant acts like a data analyst, exploring, validating, analyzing, and visualizing data iteratively to answer your questions.",
+    "shortDescription": "把 AI 助手连接到 MotherDuck 数据仓库",
+    "longDescription": "在 Codex 中使用 MotherDuck：把 AI 助手连接到 MotherDuck 数据仓库。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "MotherDuck Corporation",
     "category": "Data & Analytics",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://motherduck.com/privacy-policy/",
     "termsOfServiceURL": "https://motherduck.com/terms-of-service/",
     "defaultPrompt": [
-      "Show the top 30 customers by revenue last quarter"
+      "使用 MotherDuck 帮我分析数据并总结洞察。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

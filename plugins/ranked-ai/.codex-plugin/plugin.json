@@ -1,7 +1,7 @@
 {
   "name": "ranked-ai",
   "version": "1.0.3",
-  "description": "Ranked AI provides industry leading AI SEO & PPC software, with a fully managed service integrated into it.",
+  "description": "AI SEO 与 PPC 软件以及托管服务",
   "author": {
     "name": "Ranked AI, LLC",
     "url": "https://www.ranked.ai"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Ranked AI",
-    "shortDescription": "Ranked AI provides industry leading AI SEO & PPC software, with a fully managed service integrated into it.",
-    "longDescription": "Ranked AI provides industry leading AI SEO & PPC software, with a fully managed service integrated into it. We combine AI with industry veterans that know how to help you rank your website on traditional & AI search. Manage your traditional & AI search keywords, audits, backlinks, reports and more with our integrated app.",
+    "shortDescription": "AI SEO 与 PPC 软件以及托管服务",
+    "longDescription": "在 Codex 中使用 Ranked AI：AI SEO 与 PPC 软件以及托管服务。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Ranked AI, LLC",
     "category": "Productivity",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://www.ranked.ai/legal/privacy",
     "termsOfServiceURL": "https://www.ranked.ai/legal/terms",
     "defaultPrompt": [
-      "Show rankings for project"
+      "使用 Ranked AI 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

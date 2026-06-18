@@ -1,7 +1,7 @@
 {
   "name": "posthog",
   "version": "0.1.2",
-  "description": "Query product analytics and manage feature flags, experiments, and errors in PostHog.",
+  "description": "查询分析、功能旗标、实验和错误",
   "author": {
     "name": "PostHog",
     "url": "https://posthog.com"
@@ -26,8 +26,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "PostHog",
-    "shortDescription": "Query analytics, flags, experiments, and errors",
-    "longDescription": "Bring PostHog into ChatGPT and Codex. Ask product-analytics questions in plain language and run HogQL, create and manage feature flags, launch and read experiments, triage error-tracking issues, explore session replays and surveys, inspect LLM analytics, and build dashboards — all grounded in your real PostHog data. With the PostHog app connected, the assistant reasons about your product alongside your code and decisions, and discovers the right PostHog tools and skills at runtime instead of relying on stale knowledge.",
+    "shortDescription": "查询分析、功能旗标、实验和错误",
+    "longDescription": "在 Codex 中使用 PostHog：查询分析、功能旗标、实验和错误。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "PostHog",
     "category": "Data & Analytics",
     "capabilities": [
@@ -39,9 +39,7 @@
     "privacyPolicyURL": "https://posthog.com/privacy",
     "termsOfServiceURL": "https://posthog.com/terms",
     "defaultPrompt": [
-      "Show me signups this month",
-      "Create a feature flag for the new checkout",
-      "Why are users dropping off in onboarding?"
+      "使用 PostHog 帮我分析数据并总结洞察。"
     ],
     "brandColor": "#1D4AFF",
     "composerIcon": "./assets/app-icon.png",

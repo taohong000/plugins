@@ -1,7 +1,7 @@
 {
   "name": "expo",
   "version": "1.0.2",
-  "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps.",
+  "description": "构建、部署、升级和调试 Expo 与 React Native 应用",
   "author": {
     "name": "Expo Team",
     "email": "support@expo.dev",
@@ -26,8 +26,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Expo",
-    "shortDescription": "Build, deploy, upgrade, and debug Expo and React Native apps",
-    "longDescription": "Official Expo-authored skills for building Expo Router UI, authoring API routes, configuring data fetching and styling, writing Expo native modules, creating dev clients, upgrading Expo SDKs, wiring Codex app Run actions, and deploying Expo apps with EAS workflows, builds, hosting, TestFlight, App Store, and Play Store guidance.",
+    "shortDescription": "构建、部署、升级和调试 Expo 与 React Native 应用",
+    "longDescription": "在 Codex 中使用 Expo：构建、部署、升级和调试 Expo 与 React Native 应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Expo",
     "category": "Developer Tools",
     "capabilities": [
@@ -38,7 +38,7 @@
     "websiteURL": "https://expo.dev/",
     "privacyPolicyURL": "https://expo.dev/privacy",
     "termsOfServiceURL": "https://expo.dev/terms",
-    "defaultPrompt": "Use Expo when building, deploying, upgrading, debugging, or wiring Codex app Run actions for Expo and React Native apps.",
+    "defaultPrompt": "使用 Expo 帮我完成开发、调试、部署或项目维护任务。",
     "composerIcon": "./assets/expo.png",
     "logo": "./assets/expo.png",
     "screenshots": [],

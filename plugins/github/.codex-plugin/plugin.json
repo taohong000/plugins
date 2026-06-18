@@ -1,7 +1,7 @@
 {
   "name": "github",
   "version": "0.1.3",
-  "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
+  "description": "处理 PR、Issue、CI 和发布流程",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -22,8 +22,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "GitHub",
-    "shortDescription": "Triage PRs, issues, CI, and publish flows",
-    "longDescription": "Use GitHub to inspect repositories, review pull requests, address feedback, debug failing Actions checks, and prepare code changes for review through a connector-first workflow with targeted CLI fallbacks.",
+    "shortDescription": "处理 PR、Issue、CI 和发布流程",
+    "longDescription": "在 Codex 中使用 GitHub：处理 PR、Issue、CI 和发布流程。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Developer Tools",
     "capabilities": [
@@ -34,7 +34,7 @@
     "privacyPolicyURL": "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement",
     "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
     "defaultPrompt": [
-      "Inspect PRs, triage issues, debug failing checks, and prepare code changes for review"
+      "使用 GitHub 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "composerIcon": "./assets/github-small.svg",
     "logo": "./assets/logo.png",

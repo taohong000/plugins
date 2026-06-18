@@ -1,7 +1,7 @@
 {
   "name": "windsor-ai",
   "version": "1.0.3",
-  "description": "Windsor.ai connects your marketing and business data sources to Codex so you can ask questions in natural...",
+  "description": "连接营销和业务数据源，用自然语言提问",
   "author": {
     "name": "Windsor.ai",
     "url": "https://windsor.ai"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Windsor.ai",
-    "shortDescription": "Windsor.ai connects your marketing and business data sources to Codex so you can ask questions in natural...",
-    "longDescription": "Windsor.ai connects your marketing and business data sources to Codex so you can ask questions in natural language and get answers from your connected accounts.\n\nCommon data sources customers connect include: Google Ads, Meta (Facebook) Ads, Instagram, LinkedIn Ads, LinkedIn Company Pages, TikTok Ads, GA4, Google Search Console, YouTube Analytics, Google Business Profile, HubSpot, Salesforce, Shopify, Klaviyo, Amazon Ads, Microsoft Ads (Bing), Google Merchant Center, Stripe, GoHighLevel, and more.  \ufffc",
+    "shortDescription": "连接营销和业务数据源，用自然语言提问",
+    "longDescription": "在 Codex 中使用 Windsor.ai：连接营销和业务数据源，用自然语言提问。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Windsor.ai",
     "category": "Data & Analytics",
     "capabilities": [],
     "defaultPrompt": [
-      "Pull the relevant attribution context from Windsor.ai"
+      "使用 Windsor.ai 帮我分析数据并总结洞察。"
     ],
     "screenshots": [],
     "websiteURL": "https://windsor.ai",

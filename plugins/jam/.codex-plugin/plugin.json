@@ -1,7 +1,7 @@
 {
   "name": "jam",
   "version": "1.0.2",
-  "description": "Screen record with context",
+  "description": "带上下文录制屏幕",
   "author": {
     "name": "Jam",
     "url": "https://jam.dev"
@@ -14,8 +14,8 @@
   "interface": {
     "displayName": "Jam",
     "developerName": "Jam",
-    "shortDescription": "Screen record with context",
-    "longDescription": "Screen record with context",
+    "shortDescription": "带上下文录制屏幕",
+    "longDescription": "在 Codex 中使用 Jam：带上下文录制屏幕。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "websiteURL": "https://jam.dev",
@@ -23,7 +23,7 @@
     "termsOfServiceURL": "https://jam.dev/terms-of-service",
     "brandColor": "#7C3AED",
     "defaultPrompt": [
-      "What does this bug report show"
+      "使用 Jam 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

@@ -1,7 +1,7 @@
 {
   "name": "mem",
   "version": "1.0.2",
-  "description": "Give Codex the full context of your second brain by connecting your Mem knowledge base.",
+  "description": "连接 Mem 知识库，为 Codex 提供第二大脑上下文",
   "author": {
     "name": "Mem Labs, Inc.",
     "url": "https://mem.ai"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Mem",
-    "shortDescription": "Give Codex the full context of your second brain by connecting your Mem knowledge base.",
-    "longDescription": "Give Codex the full context of your second brain by connecting your Mem knowledge base. Search your AI notebook for context, capture and recall ideas, save chats into new notes, edit and update living docs, and organize your AI workspace \u2014 simply by asking Codex. Use for: synthesizing and pulling actions items from meeting notes, deep research, personal knowledge management (PKM), knowledge repository building, task management, prioritization, and content development. Example prompts: \"Search my notes for pricing strategy and validate our thinking with research.\" \"Create a note from this chat and add it to our GTM collection.\" \"List all open tasks from this week's notes and add to my to-do list.\"",
+    "shortDescription": "连接 Mem 知识库，为 Codex 提供第二大脑上下文",
+    "longDescription": "在 Codex 中使用 Mem：连接 Mem 知识库，为 Codex 提供第二大脑上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Mem Labs, Inc.",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Find the relevant notes in Mem"
+      "使用 Mem 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "websiteURL": "https://mem.ai",

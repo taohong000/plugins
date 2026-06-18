@@ -1,7 +1,7 @@
 {
   "name": "build-web-apps",
   "version": "0.1.2",
-  "description": "Build web apps with frontend asset design, browser testing, UI components, payments, and database guidance.",
+  "description": "构建以前端为中心的 Web 应用，覆盖素材、浏览器测试、支付和数据库",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -27,15 +27,21 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Build Web Apps",
-    "shortDescription": "Build frontend-focused web apps with generated assets, browser testing, payments, and databases",
-    "longDescription": "Use Build Web Apps to create frontend application surfaces with Codex-generated visual assets, verify them with the Browser plugin and built-in app browser, compose shadcn/ui, wire Stripe payments, and design or tune Supabase/Postgres data flows.",
+    "shortDescription": "构建以前端为中心的 Web 应用，覆盖素材、浏览器测试、支付和数据库",
+    "longDescription": "在 Codex 中使用 Build Web Apps：构建以前端为中心的 Web 应用，覆盖素材、浏览器测试、支付和数据库。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Developer Tools",
-    "capabilities": ["Interactive", "Read", "Write"],
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://openai.com/",
     "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
     "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
-    "defaultPrompt": ["Design a new landing page for my new SaaS product."],
+    "defaultPrompt": [
+      "使用 Build Web Apps 帮我完成开发、调试、部署或项目维护任务。"
+    ],
     "brandColor": "#111111",
     "composerIcon": "./assets/build-web-apps-small.svg",
     "logo": "./assets/app-icon.png",

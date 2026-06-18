@@ -1,7 +1,7 @@
 {
   "name": "zoominfo",
   "version": "1.0.2",
-  "description": "B2B company intelligence, contacts, and go-to-market signals",
+  "description": "B2B 公司情报、联系人和市场进入信号",
   "author": {
     "name": "ZoomInfo",
     "url": "https://www.zoominfo.com"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "ZoomInfo",
     "developerName": "ZoomInfo",
-    "shortDescription": "B2B company intelligence, contacts, and go-to-market signals",
-    "longDescription": "B2B company intelligence, contacts, and go-to-market signals",
+    "shortDescription": "B2B 公司情报、联系人和市场进入信号",
+    "longDescription": "在 Codex 中使用 ZoomInfo：B2B 公司情报、联系人和市场进入信号。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Business & Operations",
     "capabilities": [],
     "brandColor": "#E81818",
     "defaultPrompt": [
-      "Find target accounts in this industry and region with buying signals, then rank the best prospects.",
-      "Build a contact list for decision makers at these accounts with titles and company context.",
-      "Research a company in ZoomInfo and identify likely outreach hooks."
+      "使用 ZoomInfo 帮我分析业务数据并推进销售或运营动作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

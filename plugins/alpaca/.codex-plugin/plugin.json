@@ -1,7 +1,7 @@
 {
   "name": "alpaca",
   "version": "1.0.2",
-  "description": "Stop watching the markets.",
+  "description": "用自然语言获取市场洞察，无需盯盘",
   "author": {
     "url": "https://alpaca.markets/",
     "name": "Alpaca"
@@ -13,14 +13,14 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Alpaca",
-    "shortDescription": "Stop watching the markets.",
-    "longDescription": "Stop watching the markets. Turn your words into insights with Alpaca.\nAsk Codex real market questions and get live answers you can act on, including historical data, snapshots, quotes, and option chain information. Stock, options, and crypto market data embedded right into your conversation so you can turn analysis into automated actions.\n\"How has AAPL's stock performed this quarter vs GOOG?\"\n\"Show me the SPY option chain that expires next Friday.\"\n\"When has BTC's price reached $100k USD this year?\"",
+    "shortDescription": "用自然语言获取市场洞察，无需盯盘",
+    "longDescription": "在 Codex 中使用 Alpaca：用自然语言获取市场洞察，无需盯盘。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Finance",
     "capabilities": [],
     "websiteURL": "https://alpaca.markets/",
     "privacyPolicyURL": "https://s3.amazonaws.com/files.alpaca.markets/disclosures/PrivacyPolicy.pdf",
     "defaultPrompt": [
-      "Use Alpaca to help with this task"
+      "使用 Alpaca 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

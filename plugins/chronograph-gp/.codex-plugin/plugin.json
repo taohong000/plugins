@@ -1,7 +1,7 @@
 {
   "name": "chronograph-gp",
   "version": "1.0.0",
-  "description": "Portfolio monitoring, valuations, and analytics for private capital GP teams",
+  "description": "面向私募资本 GP 团队的可信投资组合数据",
   "author": {
     "name": "Chronograph",
     "url": "https://www.chronograph.pe/"
@@ -14,8 +14,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Chronograph GP",
-    "shortDescription": "Trusted portfolio data for private capital GP teams",
-    "longDescription": "Chronograph GP provides portfolio monitoring, valuations, and analytics for private capital General Partner users. Query trusted portfolio data, analyze investments, surface company-level metrics, and access private markets portfolio data using natural language.",
+    "shortDescription": "面向私募资本 GP 团队的可信投资组合数据",
+    "longDescription": "在 Codex 中使用 Chronograph GP：面向私募资本 GP 团队的可信投资组合数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Chronograph",
     "category": "Finance",
     "capabilities": [],
@@ -24,9 +24,7 @@
     "termsOfServiceURL": "https://www.chronograph.pe/legal/website-terms-of-use/",
     "brandColor": "#414B4B",
     "defaultPrompt": [
-      "Summarize fund returns from Chronograph GP.",
-      "Find top and bottom portfolio investments.",
-      "Show overdue reporting tasks in Chronograph GP."
+      "使用 Chronograph GP 查询相关金融数据，并整理关键结论。"
     ],
     "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.png",

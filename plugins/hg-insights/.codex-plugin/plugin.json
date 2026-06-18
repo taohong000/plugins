@@ -1,7 +1,7 @@
 {
   "name": "hg-insights",
   "version": "1.0.3",
-  "description": "Access HG Insights revenue growth intelligence, account data, buyer intent, technographics, and GTM signals from Codex.",
+  "description": "在 Codex 中使用 HG Insights 收入情报和 GTM 信号",
   "author": {
     "name": "HG Insights",
     "url": "https://hginsights.com"
@@ -20,8 +20,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "HG Insights",
-    "shortDescription": "Use HG Insights revenue intelligence and GTM signals from Codex.",
-    "longDescription": "HG Insights connects Codex to revenue growth intelligence for market sizing, account prioritization, technographics, spend data, buyer intent, and GTM planning.",
+    "shortDescription": "在 Codex 中使用 HG Insights 收入情报和 GTM 信号",
+    "longDescription": "在 Codex 中使用 HG Insights：在 Codex 中使用 HG Insights 收入情报和 GTM 信号。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "HG Insights",
     "category": "Productivity",
     "capabilities": [],
@@ -30,9 +30,7 @@
     "termsOfServiceURL": "https://hginsights.com/terms-of-service/",
     "brandColor": "#015AA0",
     "defaultPrompt": [
-      "Find high-fit accounts in HG Insights showing buyer intent and summarize the best sales plays.",
-      "Use HG Insights to size this market and identify priority segments for our GTM plan.",
-      "Enrich these target accounts with HG Insights technographics, spend data, and buying signals."
+      "使用 HG Insights 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

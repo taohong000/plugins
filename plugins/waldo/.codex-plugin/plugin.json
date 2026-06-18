@@ -1,7 +1,7 @@
 {
   "name": "waldo",
   "version": "1.0.3",
-  "description": "Waldo is an AI-powered strategy platform for agencies and brands.",
+  "description": "面向代理机构和品牌的 AI 策略平台",
   "author": {
     "name": "Curiosities, Inc.",
     "url": "https://www.waldo.fyi"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Waldo",
-    "shortDescription": "Waldo is an AI-powered strategy platform for agencies and brands.",
-    "longDescription": "Waldo is an AI-powered strategy platform for agencies and brands. Run strategy agent, explore collected signals \u2014 paid ads, brand mentions, audience conversations, trending topics, and more \u2014 and retrieve data across your team's brand spaces.",
+    "shortDescription": "面向代理机构和品牌的 AI 策略平台",
+    "longDescription": "在 Codex 中使用 Waldo：面向代理机构和品牌的 AI 策略平台。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Curiosities, Inc.",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Check the relevant mobile test coverage in Waldo"
+      "使用 Waldo 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.waldo.fyi",

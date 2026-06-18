@@ -1,7 +1,7 @@
 {
   "name": "s-p",
   "version": "1.0.3",
-  "description": "Company financials, ratings context, market research, and industry data",
+  "description": "公司财务、评级上下文、市场研究和行业数据",
   "author": {
     "name": "S&P Global",
     "url": "https://www.spglobal.com"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "S&P Global",
     "developerName": "S&P Global",
-    "shortDescription": "Company financials, ratings context, market research, and industry data",
-    "longDescription": "Company financials, ratings context, market research, and industry data",
+    "shortDescription": "公司财务、评级上下文、市场研究和行业数据",
+    "longDescription": "在 Codex 中使用 S&P Global：公司财务、评级上下文、市场研究和行业数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Finance",
     "capabilities": [],
     "brandColor": "#D80028",
     "defaultPrompt": [
-      "Pull S&P Global company financials and ratings context for a ticker and summarize the main risks.",
-      "Compare revenue growth, margins, and valuation multiples for a company and its peers in S&P Global.",
-      "Find recent S&P Global research or industry outlook items for a sector and summarize the takeaways."
+      "使用 S&P Global 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

@@ -1,7 +1,7 @@
 {
   "name": "docusign",
   "version": "1.0.3",
-  "description": "Agreement envelopes, signing status, recipients, and contract dates",
+  "description": "协议信封、签署状态、接收人和合同日期",
   "author": {
     "name": "Docusign",
     "url": "https://www.docusign.com"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "Docusign",
     "developerName": "Docusign",
-    "shortDescription": "Agreement envelopes, signing status, recipients, and contract dates",
-    "longDescription": "Agreement envelopes, signing status, recipients, and contract dates",
+    "shortDescription": "协议信封、签署状态、接收人和合同日期",
+    "longDescription": "在 Codex 中使用 Docusign：协议信封、签署状态、接收人和合同日期。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "brandColor": "#FFCC00",
     "defaultPrompt": [
-      "Find DocuSign envelopes waiting on me and summarize what needs action.",
-      "Search for agreements with a customer and pull signing status, recipients, and key dates.",
-      "Review recently completed envelopes and extract renewal or obligation dates."
+      "使用 Docusign 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

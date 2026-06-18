@@ -1,7 +1,7 @@
 {
   "name": "figma",
   "version": "2.0.9",
-  "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
+  "description": "由 Figma 集成驱动的设计到代码工作流",
   "author": {
     "name": "Figma",
     "url": "https://www.figma.com"
@@ -20,8 +20,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Figma",
-    "shortDescription": "Design-to-code workflows powered by the Figma integration",
-    "longDescription": "Figma workflows for implementing designs in code, creating Code Connect templates for published Figma components, and generating project-specific design system rules for repeatable Figma-to-code work.",
+    "shortDescription": "由 Figma 集成驱动的设计到代码工作流",
+    "longDescription": "在 Codex 中使用 Figma：由 Figma 集成驱动的设计到代码工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Figma",
     "category": "Creativity",
     "capabilities": [
@@ -33,9 +33,7 @@
     "privacyPolicyURL": "https://www.figma.com/legal/privacy/",
     "termsOfServiceURL": "https://www.figma.com/legal/developer-terms/",
     "defaultPrompt": [
-      "Inspect a Figma design and implement it in code",
-      "Create Code Connect templates for my components",
-      "Build or update a screen in Figma"
+      "使用 Figma 帮我创建、查找或优化相关创意素材。"
     ],
     "brandColor": "#1ABCFE",
     "composerIcon": "./assets/logo-padded.png",

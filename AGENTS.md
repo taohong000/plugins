@@ -108,4 +108,7 @@ Use this shape for Chinese marketplace descriptions:
 
 The scheduled sync workflow runs the override script after merging upstream, so
 official plugin list changes can still be synced while local Chinese
-descriptions are restored afterward.
+descriptions are restored afterward. The current override file covers all
+top-level plugins that existed when it was generated. When upstream adds a new
+plugin, add a matching entry to `.agents/plugins/local-overrides.zh-CN.json` so
+its marketplace text is localized too.

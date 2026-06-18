@@ -1,7 +1,7 @@
 {
   "name": "build-web-data-visualization",
   "version": "0.1.21",
-  "description": "Design, critique, implement, test, and export web data visualizations in Codex, including charts, maps, dashboards, Gantt, UML, scrollytelling, reports, slides, mobile views, shareable state, and advanced WebGL concepts.",
+  "description": "设计、构建、测试并导出 Web 数据可视化",
   "author": {
     "name": "OpenAI"
   },
@@ -54,8 +54,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Build Web Data Visualization",
-    "shortDescription": "Design, build, test, and export web data visualizations",
-    "longDescription": "Use Build Web Data Visualization to choose, design, implement, test, and export browser charts, dashboards, maps, WebGL/Three.js scenes, Canvas/D3 visuals, Gantt charts, UML/software diagrams, scrollytelling, reports, PDFs, and slide decks. It emphasizes source-backed data, accessible responsive layouts, URL-shareable analysis state, and concept-first design for advanced visual stories.",
+    "shortDescription": "设计、构建、测试并导出 Web 数据可视化",
+    "longDescription": "在 Codex 中使用 Build Web Data Visualization：设计、构建、测试并导出 Web 数据可视化。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Developer Tools",
     "capabilities": [
@@ -67,9 +67,7 @@
     "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
     "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
     "defaultPrompt": [
-      "Visually design this advanced visualization with large-screen and mobile concepts",
-      "Choose the best chart, layout, shareable state, grammar, and stack for this dataset",
-      "Design QA for this chart, dashboard, map, or WebGL visualization"
+      "使用 Build Web Data Visualization 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#0B7285",
     "composerIcon": "./assets/data-visualization-small.svg",

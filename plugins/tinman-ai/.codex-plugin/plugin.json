@@ -1,7 +1,7 @@
 {
   "name": "tinman-ai",
   "version": "1.0.3",
-  "description": "Tinman AI helps loan officers and underwriters quickly underwrite home financing scenarios and answer compl...",
+  "description": "帮助贷款专员和承销人员快速评估住房融资场景",
   "author": {
     "name": "Better",
     "url": "https://better.com"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Tinman AI",
-    "shortDescription": "Tinman AI helps loan officers and underwriters quickly underwrite home financing scenarios and answer compl...",
-    "longDescription": "Tinman AI helps loan officers and underwriters quickly underwrite home financing scenarios and answer complex eligibility questions using trusted credit decision data and underwriting logic. Instead of navigating fragmented systems, scattered guidelines, or manual spreadsheets, users can evaluate eligibility, DTI restructuring, and income calculations across a broad set of lenders and investors, instantly identifying which investors a loan qualifies for and why. Tinman AI turns what used to take days or weeks into real-time, compliant decisions that keep loans moving and deals alive.",
+    "shortDescription": "帮助贷款专员和承销人员快速评估住房融资场景",
+    "longDescription": "在 Codex 中使用 Tinman AI：帮助贷款专员和承销人员快速评估住房融资场景。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Better",
     "category": "Finance",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://better.com/about-us/privacy-policy",
     "termsOfServiceURL": "https://better.com/about-us/terms-of-use",
     "defaultPrompt": [
-      "I have borrower at 52% DTI who wants HELOC w/ $450/month"
+      "使用 Tinman AI 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

@@ -1,7 +1,7 @@
 {
   "name": "shopify",
   "version": "1.3.2",
-  "description": "Search Shopify docs, generate and validate GraphQL, Liquid, and UI extension code.",
+  "description": "构建 Shopify 应用、主题、店面和 API",
   "author": {
     "name": "Shopify",
     "url": "https://shopify.dev/"
@@ -21,8 +21,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Shopify",
-    "shortDescription": "Build Shopify apps, themes, storefronts, and APIs",
-    "longDescription": "Shopify developer tools for searching Shopify documentation, generating and validating GraphQL, Liquid, Hydrogen, Functions, UI extension, and CLI workflows. Skill scripts send usage telemetry to shopify.dev by default; set OPT_OUT_INSTRUMENTATION=true to disable.",
+    "shortDescription": "构建 Shopify 应用、主题、店面和 API",
+    "longDescription": "在 Codex 中使用 Shopify：构建 Shopify 应用、主题、店面和 API。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Shopify",
     "category": "Developer Tools",
     "capabilities": [
@@ -33,9 +33,7 @@
     "privacyPolicyURL": "https://www.shopify.com/legal/privacy",
     "termsOfServiceURL": "https://www.shopify.com/legal/terms",
     "defaultPrompt": [
-      "Build a Shopify app or theme with current docs.",
-      "Generate and validate a Shopify GraphQL operation.",
-      "Use Shopify CLI to run or troubleshoot a store workflow."
+      "使用 Shopify 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#008060",
     "composerIcon": "./assets/logo-padded.svg",

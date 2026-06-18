@@ -1,7 +1,7 @@
 {
   "name": "fal",
   "version": "1.0.3",
-  "description": "AI image and media generation workflows using Fal models",
+  "description": "使用 Fal 模型进行 AI 图像和媒体生成工作流",
   "author": {
     "name": "Fal",
     "url": "https://fal.ai"
@@ -13,16 +13,14 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Fal",
-    "shortDescription": "AI image and media generation workflows using Fal models",
-    "longDescription": "AI image and media generation workflows using Fal models",
+    "shortDescription": "使用 Fal 模型进行 AI 图像和媒体生成工作流",
+    "longDescription": "在 Codex 中使用 Fal：使用 Fal 模型进行 AI 图像和媒体生成工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Fal",
     "category": "Creativity",
     "capabilities": [],
     "websiteURL": "https://fal.ai",
     "defaultPrompt": [
-      "Use Fal to generate an image from this prompt and summarize the selected model settings.",
-      "Find Fal models for image generation or editing and recommend the best fit for this task.",
-      "Run a Fal image edit or upscaling workflow and summarize the output parameters."
+      "使用 Fal 帮我创建、查找或优化相关创意素材。"
     ],
     "brandColor": "#D60045",
     "composerIcon": "./assets/logo.png",

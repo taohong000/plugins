@@ -1,7 +1,7 @@
 {
   "name": "thoughtspot",
   "version": "1.0.3",
-  "description": "Business intelligence answers, dashboards, metrics, and revenue analysis",
+  "description": "商业智能答案、仪表盘、指标和收入分析",
   "author": {
     "name": "ThoughtSpot",
     "url": "https://www.thoughtspot.com"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "ThoughtSpot",
     "developerName": "ThoughtSpot",
-    "shortDescription": "Business intelligence answers, dashboards, metrics, and revenue analysis",
-    "longDescription": "Business intelligence answers, dashboards, metrics, and revenue analysis",
+    "shortDescription": "商业智能答案、仪表盘、指标和收入分析",
+    "longDescription": "在 Codex 中使用 ThoughtSpot：商业智能答案、仪表盘、指标和收入分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Data & Analytics",
     "capabilities": [],
     "brandColor": "#000000",
     "defaultPrompt": [
-      "Search ThoughtSpot for sales performance answers and summarize the key drivers.",
-      "Find dashboards related to pipeline health and explain the biggest movement this quarter.",
-      "Analyze revenue by segment in ThoughtSpot and highlight anomalies worth investigating."
+      "使用 ThoughtSpot 帮我分析数据并总结洞察。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

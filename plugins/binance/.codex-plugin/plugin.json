@@ -1,7 +1,7 @@
 {
   "name": "binance",
   "version": "1.0.2",
-  "description": "Binance for Codex lets you access and explore Binance public, read-only market data using natural language.",
+  "description": "用自然语言访问和探索 Binance 公开只读市场数据",
   "author": {
     "name": "Binance",
     "url": "https://www.binance.com"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Binance",
-    "shortDescription": "Binance for Codex lets you access and explore Binance public, read-only market data using natural language.",
-    "longDescription": "Binance for Codex lets you access and explore Binance public, read-only market data using natural language. Retrieve current and historical prices, order books, recent trades, candlesticks (klines), and exchange metadata across Spot, Futures, and Options. No authentication is required. This app does not access user accounts and does not support trading or transactions.\n\nMarket data is provided \u201cas is\u201d from Binance\u2019s public APIs and may be delayed, incomplete, or subject to change. This information is for informational purposes only and should not be relied upon for trading or financial decisions. Binance makes no representations or warranties regarding accuracy or timeliness and disclaims all liability arising from use of this data.",
+    "shortDescription": "用自然语言访问和探索 Binance 公开只读市场数据",
+    "longDescription": "在 Codex 中使用 Binance：用自然语言访问和探索 Binance 公开只读市场数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Binance",
     "category": "Finance",
     "capabilities": [],
     "defaultPrompt": [
-      "Show the latest Binance market context for this asset"
+      "使用 Binance 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.binance.com",

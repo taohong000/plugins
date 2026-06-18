@@ -1,7 +1,7 @@
 {
   "name": "quickbooks",
   "version": "1.0.3",
-  "description": "QuickBooks accounting, invoices, expenses, customers, and payment context",
+  "description": "QuickBooks 会计、发票、费用、客户和付款上下文",
   "author": {
     "name": "QuickBooks",
     "url": "https://quickbooks.intuit.com"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "QuickBooks",
-    "shortDescription": "QuickBooks accounting, invoices, expenses, customers, and payment context",
-    "longDescription": "QuickBooks accounting, invoices, expenses, customers, and payment context",
+    "shortDescription": "QuickBooks 会计、发票、费用、客户和付款上下文",
+    "longDescription": "在 Codex 中使用 QuickBooks：QuickBooks 会计、发票、费用、客户和付款上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "QuickBooks",
     "category": "Finance",
     "capabilities": [],
@@ -22,9 +22,7 @@
     "privacyPolicyURL": "https://www.intuit.com/privacy/statement/",
     "termsOfServiceURL": "https://quickbooks.intuit.com/legal/",
     "defaultPrompt": [
-      "Find overdue QuickBooks invoices and summarize who needs follow-up.",
-      "Pull QuickBooks expenses by category this month and flag anomalies.",
-      "Review QuickBooks customers and recent payments for this account."
+      "使用 QuickBooks 查询相关金融数据，并整理关键结论。"
     ],
     "brandColor": "#2CA01C",
     "composerIcon": "./assets/logo.png",

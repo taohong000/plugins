@@ -1,7 +1,7 @@
 {
   "name": "network-solutions",
   "version": "1.0.3",
-  "description": "The Network Solutions Domain Search Assistant makes finding an available domain fast, simple, and conversat...",
+  "description": "用对话方式快速查找可用域名",
   "author": {
     "name": "Network Solutions",
     "url": "https://www.networksolutions.com/"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Network Solutions",
-    "shortDescription": "The Network Solutions Domain Search Assistant makes finding an available domain fast, simple, and conversat...",
-    "longDescription": "The Network Solutions Domain Search Assistant makes finding an available domain fast, simple, and conversational. Instead of searching one name at a time, users can describe their idea in plain language and instantly check domain availability across relevant extensions. The assistant helps refine names, suggest alternatives, and quickly identify options that are ready to register.\n\nBuilt to remove friction and frustration from domain discovery, this chat-powered experience keeps users moving forward when names are taken and surfaces smarter, brand-ready options in real time. Whether you\u2019re launching a business, starting a personal project, or exploring new ideas, Network Solutions helps you go from concept to available domain with confidence.",
+    "shortDescription": "用对话方式快速查找可用域名",
+    "longDescription": "在 Codex 中使用 Network Solutions：用对话方式快速查找可用域名。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Network Solutions",
     "category": "Productivity",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://www.newfold.com/privacy-center",
     "termsOfServiceURL": "https://legal.newfold.com/TermsOfUse.pdf",
     "defaultPrompt": [
-      "Searching for specific domain"
+      "使用 Network Solutions 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

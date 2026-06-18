@@ -1,7 +1,7 @@
 {
   "name": "deepnote",
   "version": "0.1.5",
-  "description": "Use Deepnote's collaborative data workspace to explore data, automate notebooks and SQL workflows, and turn analysis into shareable results.",
+  "description": "在 Deepnote 中探索数据并自动化分析",
   "author": {
     "name": "Deepnote",
     "url": "https://deepnote.com"
@@ -21,8 +21,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Deepnote",
-    "shortDescription": "Explore data and automate analysis in Deepnote",
-    "longDescription": "Deepnote gives teams a collaborative workspace for notebooks, SQL, apps, and data workflows. This plugin helps OpenAI work with connected Deepnote projects, inspect and run notebooks, and turn workspace context into useful analysis and shareable results.",
+    "shortDescription": "在 Deepnote 中探索数据并自动化分析",
+    "longDescription": "在 Codex 中使用 Deepnote：在 Deepnote 中探索数据并自动化分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Deepnote",
     "category": "Data & Analytics",
     "capabilities": [
@@ -34,9 +34,7 @@
     "privacyPolicyURL": "https://deepnote.com/privacy",
     "termsOfServiceURL": "https://deepnote.com/terms",
     "defaultPrompt": [
-      "Summarize my Deepnote workspace and recent notebook activity",
-      "Explore active data connections to my Deepnote workspace",
-      "Create a notebook exploring S&P 500 vs. Nasdaq gains over the last 5 years"
+      "使用 Deepnote 帮我分析数据并总结洞察。"
     ],
     "brandColor": "#3793EF",
     "composerIcon": "./assets/composer.svg",

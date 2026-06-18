@@ -1,7 +1,7 @@
 {
   "name": "clay",
   "version": "1.0.2",
-  "description": "Find, enrich, and organize GTM accounts, contacts, and prospecting workflows from Clay.",
+  "description": "查找并丰富 GTM 账户、联系人和潜在客户",
   "author": {
     "name": "Clay",
     "url": "https://www.clay.com"
@@ -21,8 +21,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Clay",
-    "shortDescription": "Find and enrich GTM accounts, contacts, and prospects.",
-    "longDescription": "Clay connects Codex to your GTM workflows so you can find prospects, enrich leads, summarize account context, and organize outreach signals from Clay data.",
+    "shortDescription": "查找并丰富 GTM 账户、联系人和潜在客户",
+    "longDescription": "在 Codex 中使用 Clay：查找并丰富 GTM 账户、联系人和潜在客户。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Clay",
     "category": "Business & Operations",
     "capabilities": [],
@@ -31,9 +31,7 @@
     "termsOfServiceURL": "https://www.clay.com/terms-of-service",
     "brandColor": "#38D8F8",
     "defaultPrompt": [
-      "Find Clay records matching this ICP and summarize the strongest prospect accounts.",
-      "Enrich these leads in Clay with company, role, and outreach context.",
-      "Build a Clay prospecting list for this segment and identify useful signals."
+      "使用 Clay 帮我分析业务数据并推进销售或运营动作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

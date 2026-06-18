@@ -1,7 +1,7 @@
 {
   "name": "third-bridge",
   "version": "1.0.3",
-  "description": "Seamlessly incorporate critical context and trusted insights from industry experts as part of your financia...",
+  "description": "将行业专家的关键背景和可信洞察纳入金融分析",
   "author": {
     "name": "Third Bridge Group",
     "url": "https://www.thirdbridge.com"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Third Bridge",
-    "shortDescription": "Seamlessly incorporate critical context and trusted insights from industry experts as part of your financia...",
-    "longDescription": "Seamlessly incorporate critical context and trusted insights from industry experts as part of your financial and business analysis. Refocus on extracting high-quality, reliable information by querying Third Bridge\u2019s best-in-class substantial Library of expert content and data.\n\nOur MCP systematically and securely instructs Large Language Models (LLMs) to query insights from our database into their systems, streamlining your workflows and improving your output.",
+    "shortDescription": "将行业专家的关键背景和可信洞察纳入金融分析",
+    "longDescription": "在 Codex 中使用 Third Bridge：将行业专家的关键背景和可信洞察纳入金融分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Third Bridge Group",
     "category": "Finance",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://www.thirdbridge.com/en-us/about-us/compliance/policies/privacy-policy",
     "termsOfServiceURL": "https://www.thirdbridge.com/en-us/about-us/compliance/policies/third-bridge-mcp-pilot-terms",
     "defaultPrompt": [
-      "Competitive analysis based on Third Bridge expert network"
+      "使用 Third Bridge 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

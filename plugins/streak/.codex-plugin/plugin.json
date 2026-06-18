@@ -1,7 +1,7 @@
 {
   "name": "streak",
   "version": "1.0.2",
-  "description": "Streak is a CRM built directly into Gmail, so you can track deals, contacts, and workflows from your inbox.",
+  "description": "内置于 Gmail 的 CRM，用于跟踪交易、联系人和工作流",
   "author": {
     "name": "Rewardly, Inc.",
     "url": "https://www.streak.com"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Streak",
-    "shortDescription": "Streak is a CRM built directly into Gmail, so you can track deals, contacts, and workflows from your inbox.",
-    "longDescription": "Streak is a CRM built directly into Gmail, so you can track deals, contacts, and workflows from your inbox.\n\nEmails are logged automatically, pipelines update as conversations move forward, and notes and tasks stay attached to the work they belong to\u2014without copying data into another tool.\n\nDesigned for teams and individuals who manage sales, partnerships, or customer relationships primarily over email and want a clear, up-to-date view of their work.",
+    "shortDescription": "内置于 Gmail 的 CRM，用于跟踪交易、联系人和工作流",
+    "longDescription": "在 Codex 中使用 Streak：内置于 Gmail 的 CRM，用于跟踪交易、联系人和工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Rewardly, Inc.",
     "category": "Business & Operations",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://www.streak.com/privacy",
     "termsOfServiceURL": "https://www.streak.com/terms",
     "defaultPrompt": [
-      "Show recent deals in Streak"
+      "使用 Streak 帮我分析业务数据并推进销售或运营动作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

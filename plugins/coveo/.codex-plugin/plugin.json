@@ -1,7 +1,7 @@
 {
   "name": "coveo",
   "version": "1.0.2",
-  "description": "Search your enterprise content",
+  "description": "搜索企业内容",
   "author": {
     "url": "https://www.coveo.com",
     "name": "Coveo"
@@ -13,15 +13,15 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Coveo",
-    "shortDescription": "Search your enterprise content",
-    "longDescription": "Search your enterprise content",
+    "shortDescription": "搜索企业内容",
+    "longDescription": "在 Codex 中使用 Coveo：搜索企业内容。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "websiteURL": "https://www.coveo.com",
     "privacyPolicyURL": "https://www.coveo.com/en/company/legal/privacy-and-security/privacy-notice",
     "termsOfServiceURL": "https://www.coveo.com/en/company/legal/terms-and-agreements/customer-agreement",
     "defaultPrompt": [
-      "Use Coveo to help with this task"
+      "使用 Coveo 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

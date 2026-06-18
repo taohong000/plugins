@@ -1,7 +1,7 @@
 {
   "name": "sentry",
   "version": "0.1.2",
-  "description": "Inspect recent issues and events in Sentry from Codex.",
+  "description": "检查近期 Sentry 问题和事件",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -18,8 +18,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Sentry",
-    "shortDescription": "Inspect recent Sentry issues and events",
-    "longDescription": "Use Sentry skills to inspect recent issues, review events, and summarize production errors with a read-only workflow.",
+    "shortDescription": "检查近期 Sentry 问题和事件",
+    "longDescription": "在 Codex 中使用 Sentry：检查近期 Sentry 问题和事件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Developer Tools",
     "capabilities": [
@@ -30,7 +30,7 @@
     "privacyPolicyURL": "https://sentry.io/privacy/",
     "termsOfServiceURL": "https://sentry.io/terms/",
     "defaultPrompt": [
-      "Inspect recent Sentry issues and summarize the top production errors"
+      "使用 Sentry 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "composerIcon": "./assets/sentry-small.svg",
     "logo": "./assets/sentry.png",

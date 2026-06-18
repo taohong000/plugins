@@ -1,7 +1,7 @@
 {
   "name": "midpage",
   "version": "1.0.2",
-  "description": "Legal research, cases, statutes, regulations, and cited research memos",
+  "description": "法律研究、案例、法规和带引用的研究备忘录",
   "author": {
     "name": "Midpage",
     "url": "https://www.midpage.ai"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "Midpage",
     "developerName": "Midpage",
-    "shortDescription": "Legal research, cases, statutes, regulations, and cited research memos",
-    "longDescription": "Legal research, cases, statutes, regulations, and cited research memos",
+    "shortDescription": "法律研究、案例、法规和带引用的研究备忘录",
+    "longDescription": "在 Codex 中使用 Midpage：法律研究、案例、法规和带引用的研究备忘录。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Education & Research",
     "capabilities": [],
     "brandColor": "#000000",
     "defaultPrompt": [
-      "Search Midpage for cases relevant to this legal issue and summarize the strongest authorities.",
-      "Find statutes and regulations related to this matter and explain how they apply.",
-      "Draft a research memo from Midpage results with citations and open questions."
+      "使用 Midpage 帮我检索资料并整理研究结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

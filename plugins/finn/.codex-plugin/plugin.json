@@ -1,7 +1,7 @@
 {
   "name": "finn",
   "version": "1.0.4",
-  "description": "A FINN car subscription is a flexible way to stay mobile anytime - without long-term commitments like buyin...",
+  "description": "灵活查找 FINN 汽车订阅方案",
   "author": {
     "name": "FINN GmbH",
     "url": "https://www.finn.com/de-DE"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "FINN",
-    "shortDescription": "A FINN car subscription is a flexible way to stay mobile anytime - without long-term commitments like buyin...",
-    "longDescription": "A FINN car subscription is a flexible way to stay mobile anytime - without long-term commitments like buying or leasing a car. With a fixed monthly rate that already includes insurance, maintenance, registration, and even CO\u2082 offsetting, the car subscription offers full transparency and convenience.\n\nBest of all, you can book online in just a few minutes, and your new car will be delivered straight to your doorstep or you can pick it up at one of our stations.",
+    "shortDescription": "灵活查找 FINN 汽车订阅方案",
+    "longDescription": "在 Codex 中使用 FINN：灵活查找 FINN 汽车订阅方案。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "FINN GmbH",
     "category": "Travel",
     "capabilities": [],
     "defaultPrompt": [
-      "Find relevant FINN vehicle options for this request"
+      "使用 FINN 帮我查找合适选项并整理建议。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.finn.com/de-DE",

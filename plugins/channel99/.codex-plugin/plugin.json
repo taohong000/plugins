@@ -1,7 +1,7 @@
 {
   "name": "channel99",
   "version": "1.0.3",
-  "description": "Channel99 real time go to market intelligence connects Codex directly to Channel99\u2019s performance marketin...",
+  "description": "将 Channel99 实时市场进入情报连接到 Codex",
   "author": {
     "name": "Channel99 Inc. ",
     "url": "https://www.channel99.com/"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Channel99",
-    "shortDescription": "Channel99 real time go to market intelligence connects Codex directly to Channel99\u2019s performance marketin...",
-    "longDescription": "Channel99 real time go to market intelligence connects Codex directly to Channel99\u2019s performance marketing intelligence. giving AI assistants real-time access to unified B2B marketing data and insights.. Powered by Channel99\u2019s advanced attribution, account identification, and AI-driven analytics. The Channel99 connection enables natural-language queries that deliver accurate campaign performance, spend efficiency, audience engagement and cross channel attribution insights eliminating manual data pulls, siloed dashboards and complex API engineering. \n\nMarketers, analysts, and business leaders can ask Codex strategic questions like \u201cWhich channels drove the most high-value engagement last quarter?\u201d or \u201cWhere should we reallocate budget to improve pipeline efficiency?\u201d and get precise, context-aware results powered by Channel99\u2019s industry leading performance data. \n\nDeveloped by Channel99 a B2B marketing technology company dedicated to improving ROI, lowering acquisition costs, and bringing financial transparency to digital marketing investments.",
+    "shortDescription": "将 Channel99 实时市场进入情报连接到 Codex",
+    "longDescription": "在 Codex 中使用 Channel99：将 Channel99 实时市场进入情报连接到 Codex。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Channel99 Inc. ",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Summarize campaign performance from Channel99"
+      "使用 Channel99 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.channel99.com/",

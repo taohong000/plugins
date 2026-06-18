@@ -1,7 +1,7 @@
 {
   "name": "pipedrive",
   "version": "1.0.3",
-  "description": "Connect to sync Pipedrive deals and contacts for use in Codex.",
+  "description": "连接并同步 Pipedrive 交易和联系人供 Codex 使用",
   "author": {
     "name": "OpenAI",
     "url": "https://www.pipedrive.com/"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Pipedrive",
-    "shortDescription": "Connect to sync Pipedrive deals and contacts for use in Codex.",
-    "longDescription": "Connect to sync Pipedrive deals and contacts for use in Codex.",
+    "shortDescription": "连接并同步 Pipedrive 交易和联系人供 Codex 使用",
+    "longDescription": "在 Codex 中使用 Pipedrive：连接并同步 Pipedrive 交易和联系人供 Codex 使用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Business & Operations",
     "capabilities": [],
     "defaultPrompt": [
-      "Find the latest deal status in Pipedrive"
+      "使用 Pipedrive 帮我分析业务数据并推进销售或运营动作。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.pipedrive.com/",

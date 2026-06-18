@@ -1,7 +1,7 @@
 {
   "name": "circleback",
   "version": "1.0.2",
-  "description": "Circleback helps teams get the most out of every conversation with AI-powered meeting notes, action items,...",
+  "description": "用 AI 会议纪要、行动项、自动化和搜索提升每次对话价值",
   "author": {
     "name": "Circleback AI, Inc.",
     "url": "https://circleback.ai"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Circleback",
-    "shortDescription": "Circleback helps teams get the most out of every conversation with AI-powered meeting notes, action items,...",
-    "longDescription": "Circleback helps teams get the most out of every conversation with AI-powered meeting notes, action items, automations, and search.\n\nSearch and access data from in-person and online meetings you've recorded in Circleback, including meeting notes, action items, transcripts, people, and companies as well as your calendar and email.",
+    "shortDescription": "用 AI 会议纪要、行动项、自动化和搜索提升每次对话价值",
+    "longDescription": "在 Codex 中使用 Circleback：用 AI 会议纪要、行动项、自动化和搜索提升每次对话价值。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Circleback AI, Inc.",
     "category": "Communication",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://circleback.ai/privacy",
     "termsOfServiceURL": "https://circleback.ai/terms",
     "defaultPrompt": [
-      "Have I met anyone from Initech"
+      "使用 Circleback 帮我总结沟通内容并草拟后续跟进。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

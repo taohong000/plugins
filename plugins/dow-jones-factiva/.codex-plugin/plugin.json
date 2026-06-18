@@ -1,7 +1,7 @@
 {
   "name": "dow-jones-factiva",
   "version": "1.0.3",
-  "description": "The Factiva Connector, enables authorized users to search Factiva\u2019s global news archive, including premium...",
+  "description": "搜索 Factiva 全球新闻档案和道琼斯优质来源",
   "author": {
     "name": "Factiva, Inc.",
     "url": "https://www.dowjones.com/business-intelligence/factiva/"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Dow Jones Factiva",
-    "shortDescription": "The Factiva Connector, enables authorized users to search Factiva\u2019s global news archive, including premium...",
-    "longDescription": "The Factiva Connector, enables authorized users to search Factiva\u2019s global news archive, including premium Dow Jones sources, and incorporate insights from that content into their Codex responses.  \n\nUsers can research companies, industries, and markets and ground their  answers in licensed content, complete with citations and direct links to original articles.\n\nA subscription to Factiva is required. \n\nFactiva content may not be shared outside your organization or used for machine learning or AI training purposes. This connector may only be used with your organization\u2019s Codex instance.",
+    "shortDescription": "搜索 Factiva 全球新闻档案和道琼斯优质来源",
+    "longDescription": "在 Codex 中使用 Dow Jones Factiva：搜索 Factiva 全球新闻档案和道琼斯优质来源。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Factiva, Inc.",
     "category": "Education & Research",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://www.dowjones.com/privacy-notice/",
     "termsOfServiceURL": "https://global.factiva.com/factivalogin/tou/default.aspx?fcpil=en",
     "defaultPrompt": [
-      "What's the latest on Nvidia's earnings and market outlook"
+      "使用 Dow Jones Factiva 帮我检索资料并整理研究结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

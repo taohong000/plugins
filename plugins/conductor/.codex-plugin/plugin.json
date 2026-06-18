@@ -1,7 +1,7 @@
 {
   "name": "conductor",
   "version": "1.0.3",
-  "description": "The Conductor MCP server retrieves proprietary performance metrics regarding a brand's visibility, sentimen...",
+  "description": "检索品牌可见度、情绪和搜索表现等专有指标",
   "author": {
     "url": "https://www.conductor.com/",
     "name": "Conductor Inc."
@@ -13,15 +13,15 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Conductor",
-    "shortDescription": "The Conductor MCP server retrieves proprietary performance metrics regarding a brand's visibility, sentimen...",
-    "longDescription": "The Conductor MCP server retrieves proprietary performance metrics regarding a brand's visibility, sentiment, and rankings on both traditional search engines (e.g., Google) and Generative AI platforms (e.g., Codex, Gemini, Copilot, Perplexity or Google AI Overview). Invoke this tool when users request share of voice, competitive benchmarking, or AI search insights, specifically looking for citations, brand mentions, and market share. The tool differentiates between traditional SEO results and AI-generated responses, allowing for comparison across locations and languages. Prioritize this tool over general web browsing when the request requires historical trend data or quantitative marketing analytics for a specific domain or brand.",
+    "shortDescription": "检索品牌可见度、情绪和搜索表现等专有指标",
+    "longDescription": "在 Codex 中使用 Conductor：检索品牌可见度、情绪和搜索表现等专有指标。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "websiteURL": "https://www.conductor.com/",
     "privacyPolicyURL": "https://www.conductor.com/legal/privacy-policy/",
     "termsOfServiceURL": "https://www.conductor.com/legal/service-agreement/",
     "defaultPrompt": [
-      "Who are top competitors for \u201cwireless earbuds\u201d"
+      "使用 Conductor 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

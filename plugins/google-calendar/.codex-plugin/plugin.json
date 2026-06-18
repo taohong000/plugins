@@ -1,7 +1,7 @@
 {
   "name": "google-calendar",
   "version": "1.2.3",
-  "description": "Connect Google Calendar for scheduling, availability, daily briefs, and event management.",
+  "description": "管理 Google Calendar 事件和日程",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -22,8 +22,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Google Calendar",
-    "shortDescription": "Manage Google Calendar events and schedules",
-    "longDescription": "Use Google Calendar to summarize a day, check availability, list calendars, and create, update, or delete events directly from task prompts.",
+    "shortDescription": "管理 Google Calendar 事件和日程",
+    "longDescription": "在 Codex 中使用 Google Calendar：管理 Google Calendar 事件和日程。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Productivity",
     "capabilities": [
@@ -34,7 +34,7 @@
     "privacyPolicyURL": "https://policies.google.com/privacy",
     "termsOfServiceURL": "https://policies.google.com/terms",
     "defaultPrompt": [
-      "Summarize my calendar, compare availability, prep meetings, or draft event details"
+      "使用 Google Calendar 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "brandColor": "#4285F4",
     "composerIcon": "./assets/icon.png",

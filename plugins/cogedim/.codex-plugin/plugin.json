@@ -1,7 +1,7 @@
 {
   "name": "cogedim",
   "version": "1.0.3",
-  "description": "Cogedim is one of France's leading real estate developers.",
+  "description": "法国领先房地产开发商 Cogedim 的服务能力",
   "author": {
     "name": "ALTAREA PROMOTION MANAGEMENT",
     "url": "https://www.cogedim.com"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Cogedim",
-    "shortDescription": "Cogedim is one of France's leading real estate developers.",
-    "longDescription": "Cogedim is one of France's leading real estate developers. A specialist in off-plan sales (VEFA) for over 60 years, Cogedim guides you every step of the way, from defining your needs to handing over the keys.",
+    "shortDescription": "法国领先房地产开发商 Cogedim 的服务能力",
+    "longDescription": "在 Codex 中使用 Cogedim：法国领先房地产开发商 Cogedim 的服务能力。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "ALTAREA PROMOTION MANAGEMENT",
     "category": "Other",
     "capabilities": [],
     "defaultPrompt": [
-      "Find relevant Cogedim properties for this brief"
+      "使用 Cogedim 帮我处理相关任务。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.cogedim.com",

@@ -1,7 +1,7 @@
 {
   "name": "shutterstock",
   "version": "1.0.3",
-  "description": "Search licensed stock images, videos, music, and creative assets",
+  "description": "搜索授权图库图片、视频、音乐和创意素材",
   "author": {
     "name": "Shutterstock",
     "url": "https://www.shutterstock.com"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Shutterstock",
-    "shortDescription": "Search licensed stock images, videos, music, and creative assets",
-    "longDescription": "Search licensed stock images, videos, music, and creative assets",
+    "shortDescription": "搜索授权图库图片、视频、音乐和创意素材",
+    "longDescription": "在 Codex 中使用 Shutterstock：搜索授权图库图片、视频、音乐和创意素材。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Shutterstock",
     "category": "Creativity",
     "capabilities": [],
@@ -22,9 +22,7 @@
     "privacyPolicyURL": "https://www.shutterstock.com/privacy",
     "termsOfServiceURL": "https://www.shutterstock.com/terms",
     "defaultPrompt": [
-      "Search Shutterstock for hero images for this campaign and compare options.",
-      "Find Shutterstock video clips matching this storyboard and summarize choices.",
-      "Build a shortlist of Shutterstock assets for this social launch."
+      "使用 Shutterstock 帮我创建、查找或优化相关创意素材。"
     ],
     "brandColor": "#FF6F4A",
     "composerIcon": "./assets/logo.png",

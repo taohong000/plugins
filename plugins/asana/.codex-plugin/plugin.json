@@ -1,7 +1,7 @@
 {
   "name": "asana",
   "version": "0.1.3",
-  "description": "Work with your Asana tasks, subtasks, comments, due dates, and project details to create summaries, understand priorities, and prepare clear status updates.",
+  "description": "读取和管理 Asana",
   "author": {
     "name": "Asana, Inc.",
     "url": "https://asana.com"
@@ -20,8 +20,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Asana",
-    "shortDescription": "Read and manage Asana",
-    "longDescription": "Work with your Asana tasks, subtasks, comments, due dates, and project details to create summaries, understand priorities, and prepare clear status updates.",
+    "shortDescription": "读取和管理 Asana",
+    "longDescription": "在 Codex 中使用 Asana：读取和管理 Asana。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Asana, Inc.",
     "category": "Productivity",
     "capabilities": [
@@ -32,9 +32,7 @@
     "privacyPolicyURL": "https://asana.com/terms/privacy-statement",
     "termsOfServiceURL": "https://asana.com/terms",
     "defaultPrompt": [
-      "Create a project to track creative requests",
-      "Create a task to track follow up actions",
-      "Show me what's on my plate in Asana today."
+      "使用 Asana 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "brandColor": "#FF584A",
     "composerIcon": "./assets/logo.png",

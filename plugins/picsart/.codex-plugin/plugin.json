@@ -1,7 +1,7 @@
 {
   "name": "picsart",
   "version": "1.0.3",
-  "description": "Image editing, creative assets, and design workflows from Picsart",
+  "description": "来自 Picsart 的图像编辑、创意素材和设计工作流",
   "author": {
     "name": "Picsart",
     "url": "https://picsart.com"
@@ -13,16 +13,14 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Picsart",
-    "shortDescription": "Image editing, creative assets, and design workflows from Picsart",
-    "longDescription": "Image editing, creative assets, and design workflows from Picsart",
+    "shortDescription": "来自 Picsart 的图像编辑、创意素材和设计工作流",
+    "longDescription": "在 Codex 中使用 Picsart：来自 Picsart 的图像编辑、创意素材和设计工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Picsart",
     "category": "Creativity",
     "capabilities": [],
     "websiteURL": "https://picsart.com",
     "defaultPrompt": [
-      "Turn this product photo into a 10-second vertical video ad for Reels and TikTok.",
-      "Generate a cinematic 15-second product teaser from a text prompt.",
-      "Generate 5 on-brand product shots and pick the best aspect ratio for Instagram."
+      "使用 Picsart 帮我创建、查找或优化相关创意素材。"
     ],
     "brandColor": "#C209C8",
     "composerIcon": "./assets/logo.png",

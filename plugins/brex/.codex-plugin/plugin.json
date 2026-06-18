@@ -1,7 +1,7 @@
 {
   "name": "brex",
   "version": "1.0.3",
-  "description": "Connect Brex to Codex and review your company finances through natural conversation \u2014 at Codex speed.",
+  "description": "连接 Brex，通过自然语言查看公司财务",
   "author": {
     "name": "Brex Inc.",
     "url": "https://brex.com"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Brex",
-    "shortDescription": "Connect Brex to Codex and review your company finances through natural conversation \u2014 at Codex speed.",
-    "longDescription": "Connect Brex to Codex and review your company finances through natural conversation \u2014 at Codex speed.\n\nFor finance teams: Analyze spend, detect anomalies, and run custom queries and reports instantly to accelerate decisions and do more with less.\n\nFor employees: See how much you can spend, ask policy questions, check reimbursement status, manage travel, and more right in Codex.\n\nAccess is role-aware by default: employees see only what applies to them, while admins retain full visibility and control.",
+    "shortDescription": "连接 Brex，通过自然语言查看公司财务",
+    "longDescription": "在 Codex 中使用 Brex：连接 Brex，通过自然语言查看公司财务。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Brex Inc.",
     "category": "Finance",
     "capabilities": [],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://www.brex.com/legal/privacy",
     "termsOfServiceURL": "https://www.brex.com/legal/platform-agreement",
     "defaultPrompt": [
-      "How much did I spend on Delta last year"
+      "使用 Brex 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

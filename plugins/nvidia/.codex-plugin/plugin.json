@@ -1,7 +1,7 @@
 {
   "name": "nvidia",
   "version": "1.0.2",
-  "description": "Skills for NVIDIAs ecosystem spans GPU acceleration, CUDA, AI agents, inference, robotics, Physical AI, Omniverse, and simulation. This plugin helps you understand the pieces, choose a path, validate your setup, and build practical NVIDIA-powered workflows.",
+  "description": "NVIDIA AI、GPU、机器人、仿真和 3D 工作流指南",
   "author": {
     "name": "NVIDIA",
     "url": "https://github.com/NVIDIA/skills"
@@ -27,8 +27,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "NVIDIA",
-    "shortDescription": "Guided help for NVIDIA AI, GPU, robotics, simulation, and 3D workflows.",
-    "longDescription": "NVIDIAs ecosystem spans GPU acceleration, CUDA, AI agents, inference, robotics, Physical AI, Omniverse, and simulation. This plugin helps you understand the pieces, choose a path, validate your setup, and build practical NVIDIA-powered workflows.",
+    "shortDescription": "NVIDIA AI、GPU、机器人、仿真和 3D 工作流指南",
+    "longDescription": "在 Codex 中使用 NVIDIA：NVIDIA AI、GPU、机器人、仿真和 3D 工作流指南。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "NVIDIA",
     "category": "Developer Tools",
     "capabilities": [
@@ -39,9 +39,7 @@
     "composerIcon": "./assets/nvidia.png",
     "brandColor": "#76b900",
     "defaultPrompt": [
-      "Research NVIDIA CUDA-X for me and explain which libraries matter for simulation and robotics",
-      "How I could turn real-world driving footage into a 3D neural scene for simulation",
-      "Help me deploy a secure OpenClaw agent"
+      "使用 NVIDIA 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "websiteURL": "https://www.nvidia.com/",
     "privacyPolicyURL": "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",

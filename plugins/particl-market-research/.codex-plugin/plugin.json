@@ -1,7 +1,7 @@
 {
   "name": "particl-market-research",
   "version": "1.0.3",
-  "description": "Particl Market Research helps teams answer ecommerce research questions directly in Codex.",
+  "description": "帮助团队在 Codex 中回答电商研究问题",
   "author": {
     "name": "Particl",
     "url": "https://www.particl.com"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Particl Market Research",
-    "shortDescription": "Particl Market Research helps teams answer ecommerce research questions directly in Codex.",
-    "longDescription": "Particl Market Research helps teams answer ecommerce research questions directly in Codex. It supports company discovery, product catalog research, product detail and variant analysis, market leader discovery, market trend analysis, marketing asset discovery, retail event tracking, sales timeseries, and product mix breakdowns.\n\nThe app uses your authenticated Particl account and returns structured market intelligence data from Particl APIs.",
+    "shortDescription": "帮助团队在 Codex 中回答电商研究问题",
+    "longDescription": "在 Codex 中使用 Particl Market Research：帮助团队在 Codex 中回答电商研究问题。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Particl",
     "category": "Education & Research",
     "capabilities": [],
     "defaultPrompt": [
-      "Pull the relevant market snapshot from Particl"
+      "使用 Particl Market Research 帮我检索资料并整理研究结论。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.particl.com",

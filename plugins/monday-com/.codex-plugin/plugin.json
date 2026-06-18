@@ -1,7 +1,7 @@
 {
   "name": "monday-com",
   "version": "1.0.2",
-  "description": "A powerful MCP connector enabling AI agents to seamlessly interact with monday.com.",
+  "description": "让 AI 智能体无缝操作 monday.com 的 MCP 连接器",
   "author": {
     "url": "https://monday.com",
     "name": "Monday.com"
@@ -13,14 +13,14 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Monday.com",
-    "shortDescription": "A powerful MCP connector enabling AI agents to seamlessly interact with monday.com.",
-    "longDescription": "A powerful MCP connector enabling AI agents to seamlessly interact with monday.com. This connector provides comprehensive access to monday.com features including board management, item operations, dashboards, and more, allowing AI assistants to help manage projects, gain insights, and automate workflows within monday.com.",
+    "shortDescription": "让 AI 智能体无缝操作 monday.com 的 MCP 连接器",
+    "longDescription": "在 Codex 中使用 Monday.com：让 AI 智能体无缝操作 monday.com 的 MCP 连接器。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "websiteURL": "https://monday.com",
     "privacyPolicyURL": "https://monday.com/l/privacy/privacy-policy/",
     "defaultPrompt": [
-      "Check the marketing campaign status in monday.com"
+      "使用 Monday.com 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

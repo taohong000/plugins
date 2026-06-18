@@ -1,7 +1,7 @@
 {
   "name": "sendgrid",
   "version": "0.1.2",
-  "description": "Connector for interacting with the SendGrid email API.",
+  "description": "用于操作 SendGrid 邮件 API 的连接器",
   "author": {
     "name": "OpenAI",
     "url": "https://sendgrid.com/"
@@ -13,17 +13,17 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "SendGrid",
-    "shortDescription": "Connector for interacting with the SendGrid email API.",
+    "shortDescription": "用于操作 SendGrid 邮件 API 的连接器",
     "developerName": "OpenAI",
     "category": "Developer Tools",
     "capabilities": [],
     "websiteURL": "https://sendgrid.com/",
     "privacyPolicyURL": "https://www.twilio.com/legal/privacy",
     "defaultPrompt": [
-      "Review email metrics and summarize deliverability"
+      "使用 SendGrid 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "screenshots": [],
-    "longDescription": "Connector for interacting with the SendGrid email API.",
+    "longDescription": "在 Codex 中使用 SendGrid：用于操作 SendGrid 邮件 API 的连接器。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "composerIcon": "./assets/app-icon.png",
     "logo": "./assets/app-icon.png"
   }

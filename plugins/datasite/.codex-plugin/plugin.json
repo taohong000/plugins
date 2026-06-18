@@ -1,7 +1,7 @@
 {
   "name": "datasite",
   "version": "1.0.2",
-  "description": "Deal room documents, diligence materials, and Q&A workflows",
+  "description": "交易室文档、尽调材料和问答工作流",
   "author": {
     "name": "Datasite",
     "url": "https://www.datasite.com"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "Datasite",
     "developerName": "Datasite",
-    "shortDescription": "Deal room documents, diligence materials, and Q&A workflows",
-    "longDescription": "Deal room documents, diligence materials, and Q&A workflows",
+    "shortDescription": "交易室文档、尽调材料和问答工作流",
+    "longDescription": "在 Codex 中使用 Datasite：交易室文档、尽调材料和问答工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "brandColor": "#F89820",
     "defaultPrompt": [
-      "Search Datasite for documents related to customer contracts and summarize key diligence issues.",
-      "Find recently uploaded files in this Datasite project and flag missing diligence items.",
-      "Summarize open Q&A items assigned to me in Datasite with owners and next steps."
+      "使用 Datasite 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

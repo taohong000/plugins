@@ -1,7 +1,7 @@
 {
   "name": "alation",
   "version": "1.0.3",
-  "description": "Data catalog search, lineage, governance, and documentation from Alation",
+  "description": "数据目录搜索、血缘、治理和文档管理",
   "author": {
     "name": "Alation",
     "url": "https://www.alation.com"
@@ -13,16 +13,14 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Alation",
-    "shortDescription": "Data catalog search, lineage, governance, and documentation",
-    "longDescription": "Data catalog search, lineage, governance, and documentation from Alation",
+    "shortDescription": "数据目录搜索、血缘、治理和文档管理",
+    "longDescription": "在 Codex 中使用 Alation：数据目录搜索、血缘、治理和文档管理。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Alation",
     "category": "Data & Analytics",
     "capabilities": [],
     "websiteURL": "https://www.alation.com",
     "defaultPrompt": [
-      "Search Alation for data assets related to this metric and summarize owners and definitions.",
-      "Find certified Alation tables for this analysis and explain lineage, quality, and caveats.",
-      "Review Alation documentation for this dataset and draft a query-ready data brief."
+      "使用 Alation 帮我分析数据并总结洞察。"
     ],
     "brandColor": "#FF7A1A",
     "composerIcon": "./assets/logo.png",

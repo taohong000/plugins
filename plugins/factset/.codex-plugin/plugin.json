@@ -1,7 +1,7 @@
 {
   "name": "factset",
   "version": "1.0.2",
-  "description": "Financial data, estimates, market analytics, and research context",
+  "description": "金融数据、预期、市场分析和研究上下文",
   "author": {
     "name": "FactSet",
     "url": "https://www.factset.com"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "FactSet",
     "developerName": "FactSet",
-    "shortDescription": "Financial data, estimates, market analytics, and research context",
-    "longDescription": "Financial data, estimates, market analytics, and research context",
+    "shortDescription": "金融数据、预期、市场分析和研究上下文",
+    "longDescription": "在 Codex 中使用 FactSet：金融数据、预期、市场分析和研究上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Finance",
     "capabilities": [],
     "brandColor": "#182850",
     "defaultPrompt": [
-      "Pull FactSet consensus estimates and recent price performance for a ticker.",
-      "Compare margins, revenue growth, and valuation multiples across this peer set in FactSet.",
-      "Find recent broker research headlines for a company in FactSet and summarize sentiment."
+      "使用 FactSet 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

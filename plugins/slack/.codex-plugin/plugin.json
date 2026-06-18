@@ -1,7 +1,7 @@
 {
   "name": "slack",
   "version": "0.1.2",
-  "description": "Work with Slack using the configured Slack integration.",
+  "description": "读取和管理 Slack",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -19,8 +19,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Slack",
-    "shortDescription": "Read and manage Slack",
-    "longDescription": "Use Slack to summarize channels, draft messages, and organize team conversations through the connected Slack integration.",
+    "shortDescription": "读取和管理 Slack",
+    "longDescription": "在 Codex 中使用 Slack：读取和管理 Slack。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Communication",
     "capabilities": [
@@ -31,7 +31,7 @@
     "privacyPolicyURL": "https://slack.com/privacy-policy",
     "termsOfServiceURL": "https://slack.com/terms-of-service/user",
     "defaultPrompt": [
-      "Summarize unread activity, draft replies, or prepare updates"
+      "使用 Slack 帮我总结沟通内容并草拟后续跟进。"
     ],
     "brandColor": "#611F69",
     "composerIcon": "./assets/app-icon.png",

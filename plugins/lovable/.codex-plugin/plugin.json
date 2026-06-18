@@ -1,7 +1,7 @@
 {
   "name": "lovable",
   "version": "1.0.2",
-  "description": "Build and inspect Lovable app projects from connected workspace context",
+  "description": "从已连接工作区构建和检查 Lovable 应用项目",
   "author": {
     "name": "Lovable",
     "url": "https://lovable.dev"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Lovable",
-    "shortDescription": "Build and inspect Lovable app projects from connected workspace context",
-    "longDescription": "Build and inspect Lovable app projects from connected workspace context",
+    "shortDescription": "从已连接工作区构建和检查 Lovable 应用项目",
+    "longDescription": "在 Codex 中使用 Lovable：从已连接工作区构建和检查 Lovable 应用项目。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Lovable",
     "category": "Developer Tools",
     "capabilities": [],
@@ -22,9 +22,7 @@
     "privacyPolicyURL": "https://lovable.dev/privacy",
     "termsOfServiceURL": "https://lovable.dev/terms",
     "defaultPrompt": [
-      "Find my Lovable app projects and summarize recent changes.",
-      "Review this Lovable project and identify what is ready to ship.",
-      "Draft a Lovable prompt to add authentication to this app."
+      "使用 Lovable 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#FC5A28",
     "composerIcon": "./assets/logo.png",

@@ -1,7 +1,7 @@
 {
   "name": "chronograph-lp",
   "version": "1.0.3",
-  "description": "Portfolio monitoring and analytics for private capital LP teams",
+  "description": "面向私募资本 LP 团队的可信投资组合数据",
   "author": {
     "name": "Chronograph",
     "url": "https://www.chronograph.pe/"
@@ -14,8 +14,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Chronograph LP",
-    "shortDescription": "Trusted portfolio data for private capital LP teams",
-    "longDescription": "Chronograph LP provides portfolio monitoring and analytics for private capital Limited Partner users. Access trusted private markets portfolio data, from underlying portfolio companies and assets to funds, vehicles, commitments, and more.",
+    "shortDescription": "面向私募资本 LP 团队的可信投资组合数据",
+    "longDescription": "在 Codex 中使用 Chronograph LP：面向私募资本 LP 团队的可信投资组合数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Chronograph",
     "category": "Finance",
     "capabilities": [],
@@ -23,9 +23,7 @@
     "privacyPolicyURL": "https://www.chronograph.pe/legal/privacy-policy/",
     "termsOfServiceURL": "https://www.chronograph.pe/legal/website-terms-of-use/",
     "defaultPrompt": [
-      "Find Chronograph LP portfolio updates and summarize key performance changes.",
-      "Pull Chronograph LP fund metrics for this quarter and highlight risks.",
-      "Compare Chronograph LP portfolio KPIs and flag outliers."
+      "使用 Chronograph LP 查询相关金融数据，并整理关键结论。"
     ],
     "brandColor": "#414B4B",
     "composerIcon": "./assets/logo.png",

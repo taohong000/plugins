@@ -1,7 +1,7 @@
 {
   "name": "magicpath",
   "version": "0.1.1",
-  "description": "Use MagicPath to find, inspect, install, create, and edit UI components from Codex.",
+  "description": "在 Codex 中查找、安装和编写 MagicPath UI 组件",
   "author": {
     "name": "MagicPathAI",
     "url": "https://github.com/MagicPathAI"
@@ -20,8 +20,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "MagicPath",
-    "shortDescription": "Find, install, and author MagicPath UI components from Codex",
-    "longDescription": "Use MagicPath through the magicpath-ai CLI to search UI components, inspect source, install React and TypeScript components into applications, work with team projects and themes, and create or edit canvas components from local code.",
+    "shortDescription": "在 Codex 中查找、安装和编写 MagicPath UI 组件",
+    "longDescription": "在 Codex 中使用 MagicPath：在 Codex 中查找、安装和编写 MagicPath UI 组件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "MagicPathAI",
     "category": "Developer Tools",
     "capabilities": [
@@ -33,9 +33,7 @@
     "privacyPolicyURL": "https://www.magicpath.ai/privacy",
     "termsOfServiceURL": "https://www.magicpath.ai/terms",
     "defaultPrompt": [
-      "Find a MagicPath button component and help me add it to this app.",
-      "Create a new MagicPath canvas component from this repository UI.",
-      "Use my MagicPath theme to adapt this component."
+      "使用 MagicPath 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#111827",
     "composerIcon": "./assets/magicpath.png",

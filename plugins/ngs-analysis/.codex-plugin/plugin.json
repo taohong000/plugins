@@ -1,7 +1,7 @@
 {
   "name": "ngs-analysis",
   "version": "1.0.3",
-  "description": "Guided NGS intake, local execution, and public-pipeline routing for BCL, FASTQ, DNA variant, RNA-seq, single-cell, epigenomics, amplicon, and metagenomics analyses, with deeper decision skills for high-risk assay branches.",
+  "description": "测序分析的 NGS 路由和本地执行指南",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -30,8 +30,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Life Sciences NGS Analysis",
-    "shortDescription": "Guided NGS routing and local execution for sequencing analysis",
-    "longDescription": "A guided intake, routing, and execution plugin for next-generation sequencing workflows. It helps Codex inspect local sequencing inputs, ask only the missing assay-specific questions, choose public or freely accessible runtime-installable packages where possible, check existing tool availability before any install, and execute supported local workflows with validation, logs, manifests, QC reports, and artifact indexes. It includes deeper decision skills for BCL demultiplexing, FASTQ QC execution and interpretation, germline, somatic and UMI-panel DNA variants, bulk RNA-seq count generation and differential expression, ATAC-seq, ChIP-seq/CUT&RUN/CUT&Tag, and embedded post-count scRNA-seq QC.",
+    "shortDescription": "测序分析的 NGS 路由和本地执行指南",
+    "longDescription": "在 Codex 中使用 Life Sciences NGS Analysis：测序分析的 NGS 路由和本地执行指南。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Education & Research",
     "capabilities": [
@@ -43,7 +43,7 @@
     "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
     "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
     "defaultPrompt": [
-      "Guide me through the minimum required NGS analysis questions, inspect available BCL/FASTQ files or count matrices, choose the right public pipeline or deeper assay-specific skill, check whether required tools already exist, and execute supported local workflows with pre-execution validation and artifact capture."
+      "使用 Life Sciences NGS Analysis 帮我检索资料并整理研究结论。"
     ],
     "brandColor": "#0F766E",
     "composerIcon": "./assets/app-icon.png",

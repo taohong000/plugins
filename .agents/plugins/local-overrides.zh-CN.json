@@ -13,5 +13,1748 @@
       }
     }
   },
-  "plugins": {}
+  "plugins": {
+    "actively": {
+      "description": "来自 Actively 的账户情报和潜在客户购买信号",
+      "interface": {
+        "shortDescription": "来自 Actively 的账户情报和潜在客户购买信号",
+        "longDescription": "在 Codex 中使用 Actively：来自 Actively 的账户情报和潜在客户购买信号。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Actively 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "aiera": {
+      "description": "财报电话会、转录稿、金融事件和市场评论",
+      "interface": {
+        "shortDescription": "财报电话会、转录稿、金融事件和市场评论",
+        "longDescription": "在 Codex 中使用 Aiera：财报电话会、转录稿、金融事件和市场评论。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Aiera 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "airtable": {
+      "description": "面向智能体的数据库与运营管理层",
+      "interface": {
+        "shortDescription": "面向智能体的数据库与运营管理层",
+        "longDescription": "在 Codex 中使用 Airtable：面向智能体的数据库与运营管理层。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Airtable 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "alation": {
+      "description": "数据目录搜索、血缘、治理和文档管理",
+      "interface": {
+        "shortDescription": "数据目录搜索、血缘、治理和文档管理",
+        "longDescription": "在 Codex 中使用 Alation：数据目录搜索、血缘、治理和文档管理。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Alation 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "alpaca": {
+      "description": "用自然语言获取市场洞察，无需盯盘",
+      "interface": {
+        "shortDescription": "用自然语言获取市场洞察，无需盯盘",
+        "longDescription": "在 Codex 中使用 Alpaca：用自然语言获取市场洞察，无需盯盘。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Alpaca 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "amplitude": {
+      "description": "产品分析和转化漏斗",
+      "interface": {
+        "shortDescription": "产品分析和转化漏斗",
+        "longDescription": "在 Codex 中使用 Amplitude：产品分析和转化漏斗。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Amplitude 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "apollo": {
+      "description": "B2B 潜客开发、账户研究、联系人和外联名单",
+      "interface": {
+        "shortDescription": "B2B 潜客开发、账户研究、联系人和外联名单",
+        "longDescription": "在 Codex 中使用 Apollo：B2B 潜客开发、账户研究、联系人和外联名单。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Apollo 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "asana": {
+      "description": "读取和管理 Asana",
+      "interface": {
+        "shortDescription": "读取和管理 Asana",
+        "longDescription": "在 Codex 中使用 Asana：读取和管理 Asana。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Asana 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "atlassian-rovo": {
+      "description": "快速管理 Jira 和 Confluence",
+      "interface": {
+        "shortDescription": "快速管理 Jira 和 Confluence",
+        "longDescription": "在 Codex 中使用 Atlassian Rovo：快速管理 Jira 和 Confluence。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Atlassian Rovo 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "attio": {
+      "description": "将 Codex 连接到 Attio CRM 工作区，管理客户关系",
+      "interface": {
+        "shortDescription": "将 Codex 连接到 Attio CRM 工作区，管理客户关系",
+        "longDescription": "在 Codex 中使用 Attio：将 Codex 连接到 Attio CRM 工作区，管理客户关系。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Attio 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "base44": {
+      "description": "在 Codex 中构建和部署 Base44 全栈应用",
+      "interface": {
+        "shortDescription": "在 Codex 中构建和部署 Base44 全栈应用",
+        "longDescription": "在 Codex 中使用 Base44：在 Codex 中构建和部署 Base44 全栈应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Base44 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "binance": {
+      "description": "用自然语言访问和探索 Binance 公开只读市场数据",
+      "interface": {
+        "shortDescription": "用自然语言访问和探索 Binance 公开只读市场数据",
+        "longDescription": "在 Codex 中使用 Binance：用自然语言访问和探索 Binance 公开只读市场数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Binance 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "biorender": {
+      "description": "帮助科研人员快速创建专业科学图示",
+      "interface": {
+        "shortDescription": "帮助科研人员快速创建专业科学图示",
+        "longDescription": "在 Codex 中使用 BioRender：帮助科研人员快速创建专业科学图示。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 BioRender 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "box": {
+      "description": "搜索并引用你的文档",
+      "interface": {
+        "shortDescription": "搜索并引用你的文档",
+        "longDescription": "在 Codex 中使用 Box：搜索并引用你的文档。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Box 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "brand24": {
+      "description": "在 Codex 中探索品牌提及、情绪和媒体覆盖",
+      "interface": {
+        "shortDescription": "在 Codex 中探索品牌提及、情绪和媒体覆盖",
+        "longDescription": "在 Codex 中使用 Brand24：在 Codex 中探索品牌提及、情绪和媒体覆盖。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Brand24 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "brex": {
+      "description": "连接 Brex，通过自然语言查看公司财务",
+      "interface": {
+        "shortDescription": "连接 Brex，通过自然语言查看公司财务",
+        "longDescription": "在 Codex 中使用 Brex：连接 Brex，通过自然语言查看公司财务。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Brex 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "brighthire": {
+      "description": "搜索和分析 BrightHire 面试、候选人、通话和招聘数据",
+      "interface": {
+        "shortDescription": "搜索和分析 BrightHire 面试、候选人、通话和招聘数据",
+        "longDescription": "在 Codex 中使用 BrightHire：搜索和分析 BrightHire 面试、候选人、通话和招聘数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 BrightHire 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "build-ios-apps": {
+      "description": "使用 App Intents、SwiftUI 和 Xcode 流程构建、优化和调试 iOS 应用",
+      "interface": {
+        "shortDescription": "使用 App Intents、SwiftUI 和 Xcode 流程构建、优化和调试 iOS 应用",
+        "longDescription": "在 Codex 中使用 Build iOS Apps：使用 App Intents、SwiftUI 和 Xcode 流程构建、优化和调试 iOS 应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Build iOS Apps 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "build-macos-apps": {
+      "description": "使用 SwiftUI 和 AppKit 指南构建、调试、检测和实现 macOS 应用",
+      "interface": {
+        "shortDescription": "使用 SwiftUI 和 AppKit 指南构建、调试、检测和实现 macOS 应用",
+        "longDescription": "在 Codex 中使用 Build macOS Apps：使用 SwiftUI 和 AppKit 指南构建、调试、检测和实现 macOS 应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Build macOS Apps 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "build-web-apps": {
+      "description": "构建以前端为中心的 Web 应用，覆盖素材、浏览器测试、支付和数据库",
+      "interface": {
+        "shortDescription": "构建以前端为中心的 Web 应用，覆盖素材、浏览器测试、支付和数据库",
+        "longDescription": "在 Codex 中使用 Build Web Apps：构建以前端为中心的 Web 应用，覆盖素材、浏览器测试、支付和数据库。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Build Web Apps 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "build-web-data-visualization": {
+      "description": "设计、构建、测试并导出 Web 数据可视化",
+      "interface": {
+        "shortDescription": "设计、构建、测试并导出 Web 数据可视化",
+        "longDescription": "在 Codex 中使用 Build Web Data Visualization：设计、构建、测试并导出 Web 数据可视化。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Build Web Data Visualization 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "calendly": {
+      "description": "搜索 Calendly 会议、事件和可用时间",
+      "interface": {
+        "shortDescription": "搜索 Calendly 会议、事件和可用时间",
+        "longDescription": "在 Codex 中使用 Calendly：搜索 Calendly 会议、事件和可用时间。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Calendly 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "canva": {
+      "description": "搜索、创建和编辑设计",
+      "interface": {
+        "shortDescription": "搜索、创建和编辑设计",
+        "longDescription": "在 Codex 中使用 Canva：搜索、创建和编辑设计。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Canva 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "carta-crm": {
+      "description": "帮助投资团队集中管理交易流、公司和关系",
+      "interface": {
+        "shortDescription": "帮助投资团队集中管理交易流、公司和关系",
+        "longDescription": "在 Codex 中使用 Carta CRM：帮助投资团队集中管理交易流、公司和关系。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Carta CRM 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "catalyst-by-zoho": {
+      "description": "在 Codex 中使用 Catalyst by Zoho 能力",
+      "interface": {
+        "shortDescription": "在 Codex 中使用 Catalyst by Zoho 能力",
+        "longDescription": "在 Codex 中使用 Catalyst by Zoho：在 Codex 中使用 Catalyst by Zoho 能力。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Catalyst by Zoho 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "cb-insights": {
+      "description": "让 Codex 成为你的私募市场研究智能体",
+      "interface": {
+        "shortDescription": "让 Codex 成为你的私募市场研究智能体",
+        "longDescription": "在 Codex 中使用 CB Insights：让 Codex 成为你的私募市场研究智能体。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 CB Insights 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "channel99": {
+      "description": "将 Channel99 实时市场进入情报连接到 Codex",
+      "interface": {
+        "shortDescription": "将 Channel99 实时市场进入情报连接到 Codex",
+        "longDescription": "在 Codex 中使用 Channel99：将 Channel99 实时市场进入情报连接到 Codex。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Channel99 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "chronograph-gp": {
+      "description": "面向私募资本 GP 团队的可信投资组合数据",
+      "interface": {
+        "shortDescription": "面向私募资本 GP 团队的可信投资组合数据",
+        "longDescription": "在 Codex 中使用 Chronograph GP：面向私募资本 GP 团队的可信投资组合数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Chronograph GP 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "chronograph-lp": {
+      "description": "面向私募资本 LP 团队的可信投资组合数据",
+      "interface": {
+        "shortDescription": "面向私募资本 LP 团队的可信投资组合数据",
+        "longDescription": "在 Codex 中使用 Chronograph LP：面向私募资本 LP 团队的可信投资组合数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Chronograph LP 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "circleback": {
+      "description": "用 AI 会议纪要、行动项、自动化和搜索提升每次对话价值",
+      "interface": {
+        "shortDescription": "用 AI 会议纪要、行动项、自动化和搜索提升每次对话价值",
+        "longDescription": "在 Codex 中使用 Circleback：用 AI 会议纪要、行动项、自动化和搜索提升每次对话价值。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Circleback 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "circleci": {
+      "description": "构建、测试并部署任意应用",
+      "interface": {
+        "shortDescription": "构建、测试并部署任意应用",
+        "longDescription": "在 Codex 中使用 CircleCI：构建、测试并部署任意应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 CircleCI 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "clay": {
+      "description": "查找并丰富 GTM 账户、联系人和潜在客户",
+      "interface": {
+        "shortDescription": "查找并丰富 GTM 账户、联系人和潜在客户",
+        "longDescription": "在 Codex 中使用 Clay：查找并丰富 GTM 账户、联系人和潜在客户。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Clay 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "clickup": {
+      "description": "把 Codex 变成你的 ClickUp 指挥中心",
+      "interface": {
+        "shortDescription": "把 Codex 变成你的 ClickUp 指挥中心",
+        "longDescription": "在 Codex 中使用 ClickUp：把 Codex 变成你的 ClickUp 指挥中心。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 ClickUp 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "close": {
+      "description": "CRM 线索、机会、活动和销售管道上下文",
+      "interface": {
+        "shortDescription": "CRM 线索、机会、活动和销售管道上下文",
+        "longDescription": "在 Codex 中使用 Close：CRM 线索、机会、活动和销售管道上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Close 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "cloudflare": {
+      "description": "基于官方 MCP 的 Cloudflare 平台指南",
+      "interface": {
+        "shortDescription": "基于官方 MCP 的 Cloudflare 平台指南",
+        "longDescription": "在 Codex 中使用 Cloudflare：基于官方 MCP 的 Cloudflare 平台指南。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Cloudflare 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "cloudinary": {
+      "description": "直接从 Codex 管理、搜索和转换 Cloudinary 媒体库",
+      "interface": {
+        "shortDescription": "直接从 Codex 管理、搜索和转换 Cloudinary 媒体库",
+        "longDescription": "在 Codex 中使用 Cloudinary：直接从 Codex 管理、搜索和转换 Cloudinary 媒体库。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Cloudinary 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "coderabbit": {
+      "description": "为当前代码改动运行 AI 代码审查",
+      "interface": {
+        "shortDescription": "为当前代码改动运行 AI 代码审查",
+        "longDescription": "在 Codex 中使用 CodeRabbit：为当前代码改动运行 AI 代码审查。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 CodeRabbit 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "codex-security": {
+      "description": "为代码库执行安全扫描",
+      "interface": {
+        "shortDescription": "为代码库执行安全扫描",
+        "longDescription": "在 Codex 中使用 Codex Security：为代码库执行安全扫描。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Codex Security 帮我处理相关任务。"
+        ]
+      }
+    },
+    "cogedim": {
+      "description": "法国领先房地产开发商 Cogedim 的服务能力",
+      "interface": {
+        "shortDescription": "法国领先房地产开发商 Cogedim 的服务能力",
+        "longDescription": "在 Codex 中使用 Cogedim：法国领先房地产开发商 Cogedim 的服务能力。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Cogedim 帮我处理相关任务。"
+        ]
+      }
+    },
+    "common-room": {
+      "description": "在 Codex 中嵌入完整买方情报",
+      "interface": {
+        "shortDescription": "在 Codex 中嵌入完整买方情报",
+        "longDescription": "在 Codex 中使用 Common Room：在 Codex 中嵌入完整买方情报。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Common Room 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "conductor": {
+      "description": "检索品牌可见度、情绪和搜索表现等专有指标",
+      "interface": {
+        "shortDescription": "检索品牌可见度、情绪和搜索表现等专有指标",
+        "longDescription": "在 Codex 中使用 Conductor：检索品牌可见度、情绪和搜索表现等专有指标。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Conductor 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "convex": {
+      "description": "为 JavaScript/TypeScript 应用添加后端",
+      "interface": {
+        "shortDescription": "为 JavaScript/TypeScript 应用添加后端",
+        "longDescription": "在 Codex 中使用 Convex：为 JavaScript/TypeScript 应用添加后端。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Convex 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "coupler-io": {
+      "description": "在 Codex 中分析多渠道营销、财务、销售、电商等业务数据",
+      "interface": {
+        "shortDescription": "在 Codex 中分析多渠道营销、财务、销售、电商等业务数据",
+        "longDescription": "在 Codex 中使用 Coupler.io：在 Codex 中分析多渠道营销、财务、销售、电商等业务数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Coupler.io 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "coveo": {
+      "description": "搜索企业内容",
+      "interface": {
+        "shortDescription": "搜索企业内容",
+        "longDescription": "在 Codex 中使用 Coveo：搜索企业内容。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Coveo 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "cube": {
+      "description": "查询 Cube 中的实际值、预算、预测、差异和业务指标",
+      "interface": {
+        "shortDescription": "查询 Cube 中的实际值、预算、预测、差异和业务指标",
+        "longDescription": "在 Codex 中使用 Cube：查询 Cube 中的实际值、预算、预测、差异和业务指标。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Cube 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "daloopa": {
+      "description": "机构级金融分析工作流",
+      "interface": {
+        "shortDescription": "机构级金融分析工作流",
+        "longDescription": "在 Codex 中使用 Daloopa：机构级金融分析工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Daloopa 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "datadog": {
+      "description": "调查日志、指标、链路追踪和事件",
+      "interface": {
+        "shortDescription": "调查日志、指标、链路追踪和事件",
+        "longDescription": "在 Codex 中使用 Datadog (Preview)：调查日志、指标、链路追踪和事件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Datadog (Preview) 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "datasite": {
+      "description": "交易室文档、尽调材料和问答工作流",
+      "interface": {
+        "shortDescription": "交易室文档、尽调材料和问答工作流",
+        "longDescription": "在 Codex 中使用 Datasite：交易室文档、尽调材料和问答工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Datasite 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "deepnote": {
+      "description": "在 Deepnote 中探索数据并自动化分析",
+      "interface": {
+        "shortDescription": "在 Deepnote 中探索数据并自动化分析",
+        "longDescription": "在 Codex 中使用 Deepnote：在 Deepnote 中探索数据并自动化分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Deepnote 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "demandbase": {
+      "description": "让销售、营销和 GTM 团队在 Codex 中访问丰富 B2B 数据",
+      "interface": {
+        "shortDescription": "让销售、营销和 GTM 团队在 Codex 中访问丰富 B2B 数据",
+        "longDescription": "在 Codex 中使用 Demandbase：让销售、营销和 GTM 团队在 Codex 中访问丰富 B2B 数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Demandbase 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "dnb-finance-analytics": {
+      "description": "授信发起、组合风险、公司报告和文件夹工作流",
+      "interface": {
+        "shortDescription": "授信发起、组合风险、公司报告和文件夹工作流",
+        "longDescription": "在 Codex 中使用 D&B Finance Analytics：授信发起、组合风险、公司报告和文件夹工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 D&B Finance Analytics 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "docket": {
+      "description": "让销售知识成为即时可用的超级能力",
+      "interface": {
+        "shortDescription": "让销售知识成为即时可用的超级能力",
+        "longDescription": "在 Codex 中使用 Docket：让销售知识成为即时可用的超级能力。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Docket 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "docusign": {
+      "description": "协议信封、签署状态、接收人和合同日期",
+      "interface": {
+        "shortDescription": "协议信封、签署状态、接收人和合同日期",
+        "longDescription": "在 Codex 中使用 Docusign：协议信封、签署状态、接收人和合同日期。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Docusign 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "domotz-preview": {
+      "description": "通过自然语言监控和管理网络基础设施",
+      "interface": {
+        "shortDescription": "通过自然语言监控和管理网络基础设施",
+        "longDescription": "在 Codex 中使用 Domotz (Preview)：通过自然语言监控和管理网络基础设施。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Domotz (Preview) 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "dovetail": {
+      "description": "在 Codex 中连接 Dovetail，把客户反馈转化为决策",
+      "interface": {
+        "shortDescription": "在 Codex 中连接 Dovetail，把客户反馈转化为决策",
+        "longDescription": "在 Codex 中使用 Dovetail ：在 Codex 中连接 Dovetail，把客户反馈转化为决策。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Dovetail  帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "dow-jones-factiva": {
+      "description": "搜索 Factiva 全球新闻档案和道琼斯优质来源",
+      "interface": {
+        "shortDescription": "搜索 Factiva 全球新闻档案和道琼斯优质来源",
+        "longDescription": "在 Codex 中使用 Dow Jones Factiva：搜索 Factiva 全球新闻档案和道琼斯优质来源。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Dow Jones Factiva 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "egnyte": {
+      "description": "直接从 Codex 处理 Egnyte 中的文档和文件",
+      "interface": {
+        "shortDescription": "直接从 Codex 处理 Egnyte 中的文档和文件",
+        "longDescription": "在 Codex 中使用 Egnyte：直接从 Codex 处理 Egnyte 中的文档和文件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Egnyte 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "expo": {
+      "description": "构建、部署、升级和调试 Expo 与 React Native 应用",
+      "interface": {
+        "shortDescription": "构建、部署、升级和调试 Expo 与 React Native 应用",
+        "longDescription": "在 Codex 中使用 Expo：构建、部署、升级和调试 Expo 与 React Native 应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": "使用 Expo 帮我完成开发、调试、部署或项目维护任务。"
+      }
+    },
+    "factset": {
+      "description": "金融数据、预期、市场分析和研究上下文",
+      "interface": {
+        "shortDescription": "金融数据、预期、市场分析和研究上下文",
+        "longDescription": "在 Codex 中使用 FactSet：金融数据、预期、市场分析和研究上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 FactSet 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "fal": {
+      "description": "使用 Fal 模型进行 AI 图像和媒体生成工作流",
+      "interface": {
+        "shortDescription": "使用 Fal 模型进行 AI 图像和媒体生成工作流",
+        "longDescription": "在 Codex 中使用 Fal：使用 Fal 模型进行 AI 图像和媒体生成工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Fal 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "figma": {
+      "description": "由 Figma 集成驱动的设计到代码工作流",
+      "interface": {
+        "shortDescription": "由 Figma 集成驱动的设计到代码工作流",
+        "longDescription": "在 Codex 中使用 Figma：由 Figma 集成驱动的设计到代码工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Figma 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "finn": {
+      "description": "灵活查找 FINN 汽车订阅方案",
+      "interface": {
+        "shortDescription": "灵活查找 FINN 汽车订阅方案",
+        "longDescription": "在 Codex 中使用 FINN：灵活查找 FINN 汽车订阅方案。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 FINN 帮我查找合适选项并整理建议。"
+        ]
+      }
+    },
+    "fireflies": {
+      "description": "把会议和组织知识直接带入 Codex",
+      "interface": {
+        "shortDescription": "把会议和组织知识直接带入 Codex",
+        "longDescription": "在 Codex 中使用 Fireflies：把会议和组织知识直接带入 Codex。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Fireflies 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "fiscal-ai": {
+      "description": "金融研究、基本面、公告文件和市场洞察",
+      "interface": {
+        "shortDescription": "金融研究、基本面、公告文件和市场洞察",
+        "longDescription": "在 Codex 中使用 Fiscal AI：金融研究、基本面、公告文件和市场洞察。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Fiscal AI 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "fyxer": {
+      "description": "在聊天中撰写听起来像你本人风格的邮件",
+      "interface": {
+        "shortDescription": "在聊天中撰写听起来像你本人风格的邮件",
+        "longDescription": "在 Codex 中使用 Fyxer：在聊天中撰写听起来像你本人风格的邮件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Fyxer 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "game-studio": {
+      "description": "设计、原型制作并发布浏览器游戏",
+      "interface": {
+        "shortDescription": "设计、原型制作并发布浏览器游戏",
+        "longDescription": "在 Codex 中使用 Game Studio：设计、原型制作并发布浏览器游戏。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Game Studio 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "github": {
+      "description": "处理 PR、Issue、CI 和发布流程",
+      "interface": {
+        "shortDescription": "处理 PR、Issue、CI 和发布流程",
+        "longDescription": "在 Codex 中使用 GitHub：处理 PR、Issue、CI 和发布流程。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 GitHub 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "gmail": {
+      "description": "读取和管理 Gmail",
+      "interface": {
+        "shortDescription": "读取和管理 Gmail",
+        "longDescription": "在 Codex 中使用 Gmail：读取和管理 Gmail。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Gmail 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "google-calendar": {
+      "description": "管理 Google Calendar 事件和日程",
+      "interface": {
+        "shortDescription": "管理 Google Calendar 事件和日程",
+        "longDescription": "在 Codex 中使用 Google Calendar：管理 Google Calendar 事件和日程。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Google Calendar 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "google-drive": {
+      "description": "跨 Drive、Docs、Sheets 和 Slides 工作",
+      "interface": {
+        "shortDescription": "跨 Drive、Docs、Sheets 和 Slides 工作",
+        "longDescription": "在 Codex 中使用 Google Drive：跨 Drive、Docs、Sheets 和 Slides 工作。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Google Drive 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "govtribe": {
+      "description": "直接从 Codex 搜索政府合同、授标和供应商",
+      "interface": {
+        "shortDescription": "直接从 Codex 搜索政府合同、授标和供应商",
+        "longDescription": "在 Codex 中使用 GovTribe：直接从 Codex 搜索政府合同、授标和供应商。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 GovTribe 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "granola": {
+      "description": "将会议历史连接到 Codex，让助手获取过往对话上下文",
+      "interface": {
+        "shortDescription": "将会议历史连接到 Codex，让助手获取过往对话上下文",
+        "longDescription": "在 Codex 中使用 Granola：将会议历史连接到 Codex，让助手获取过往对话上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Granola 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "happenstance": {
+      "description": "用自然语言搜索职业网络，找到合适的人",
+      "interface": {
+        "shortDescription": "用自然语言搜索职业网络，找到合适的人",
+        "longDescription": "在 Codex 中使用 Happenstance：用自然语言搜索职业网络，找到合适的人。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Happenstance 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "hebbia": {
+      "description": "来自 Hebbia 的文档研究、有证据支持的回答和项目分析",
+      "interface": {
+        "shortDescription": "来自 Hebbia 的文档研究、有证据支持的回答和项目分析",
+        "longDescription": "在 Codex 中使用 Hebbia：来自 Hebbia 的文档研究、有证据支持的回答和项目分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Hebbia 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "help-scout": {
+      "description": "连接并同步 Help Scout 邮箱和对话供 Codex 使用",
+      "interface": {
+        "shortDescription": "连接并同步 Help Scout 邮箱和对话供 Codex 使用",
+        "longDescription": "在 Codex 中使用 Help Scout：连接并同步 Help Scout 邮箱和对话供 Codex 使用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Help Scout 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "hex": {
+      "description": "搜索 Hex 项目并向 Hex Threads 提问",
+      "interface": {
+        "shortDescription": "搜索 Hex 项目并向 Hex Threads 提问",
+        "longDescription": "在 Codex 中使用 Hex：搜索 Hex 项目并向 Hex Threads 提问。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": "使用 Hex 帮我分析数据并总结洞察。"
+      }
+    },
+    "heygen": {
+      "description": "头像视频和个性化视频消息",
+      "interface": {
+        "shortDescription": "头像视频和个性化视频消息",
+        "longDescription": "在 Codex 中使用 HeyGen：头像视频和个性化视频消息。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 HeyGen 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "hg-insights": {
+      "description": "在 Codex 中使用 HG Insights 收入情报和 GTM 信号",
+      "interface": {
+        "shortDescription": "在 Codex 中使用 HG Insights 收入情报和 GTM 信号",
+        "longDescription": "在 Codex 中使用 HG Insights：在 Codex 中使用 HG Insights 收入情报和 GTM 信号。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 HG Insights 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "highlevel": {
+      "description": "为代理机构提供统一的 CRM、自动化和客户沟通平台",
+      "interface": {
+        "shortDescription": "为代理机构提供统一的 CRM、自动化和客户沟通平台",
+        "longDescription": "在 Codex 中使用 HighLevel：为代理机构提供统一的 CRM、自动化和客户沟通平台。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 HighLevel 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "hostinger": {
+      "description": "通过描述需求构建真实网站和应用",
+      "interface": {
+        "shortDescription": "通过描述需求构建真实网站和应用",
+        "longDescription": "在 Codex 中使用 Hostinger：通过描述需求构建真实网站和应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Hostinger 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "hubspot": {
+      "description": "分析 HubSpot 数据、创建和更新记录并管理 CRM 运营",
+      "interface": {
+        "shortDescription": "分析 HubSpot 数据、创建和更新记录并管理 CRM 运营",
+        "longDescription": "在 Codex 中使用 HubSpot：分析 HubSpot 数据、创建和更新记录并管理 CRM 运营。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 HubSpot 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "hugging-face": {
+      "description": "检查模型、数据集、Spaces 和研究内容",
+      "interface": {
+        "shortDescription": "检查模型、数据集、Spaces 和研究内容",
+        "longDescription": "在 Codex 中使用 Hugging Face：检查模型、数据集、Spaces 和研究内容。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Hugging Face 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "hyperframes": {
+      "description": "编写 HTML 并渲染视频",
+      "interface": {
+        "shortDescription": "编写 HTML 并渲染视频",
+        "longDescription": "在 Codex 中使用 HyperFrames by HeyGen：编写 HTML 并渲染视频。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 HyperFrames by HeyGen 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "intercom": {
+      "description": "来自 Intercom 的客户对话、联系人、工单和支持工作流",
+      "interface": {
+        "shortDescription": "来自 Intercom 的客户对话、联系人、工单和支持工作流",
+        "longDescription": "在 Codex 中使用 Intercom：来自 Intercom 的客户对话、联系人、工单和支持工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Intercom 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "jam": {
+      "description": "带上下文录制屏幕",
+      "interface": {
+        "shortDescription": "带上下文录制屏幕",
+        "longDescription": "在 Codex 中使用 Jam：带上下文录制屏幕。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Jam 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "keybid-puls": {
+      "description": "用 ROI 计算器评估短租投资盈利能力",
+      "interface": {
+        "shortDescription": "用 ROI 计算器评估短租投资盈利能力",
+        "longDescription": "在 Codex 中使用 KeyBid Puls：用 ROI 计算器评估短租投资盈利能力。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 KeyBid Puls 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "life-science-research": {
+      "description": "生命科学研究路由、证据综合和可选并行分析",
+      "interface": {
+        "shortDescription": "生命科学研究路由、证据综合和可选并行分析",
+        "longDescription": "在 Codex 中使用 Life Science Research：生命科学研究路由、证据综合和可选并行分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Life Science Research 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "linear": {
+      "description": "查找并引用议题和项目",
+      "interface": {
+        "shortDescription": "查找并引用议题和项目",
+        "longDescription": "在 Codex 中使用 Linear：查找并引用议题和项目。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Linear 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "lovable": {
+      "description": "从已连接工作区构建和检查 Lovable 应用项目",
+      "interface": {
+        "shortDescription": "从已连接工作区构建和检查 Lovable 应用项目",
+        "longDescription": "在 Codex 中使用 Lovable：从已连接工作区构建和检查 Lovable 应用项目。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Lovable 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "lseg": {
+      "description": "金融市场数据、公司情报和新闻",
+      "interface": {
+        "shortDescription": "金融市场数据、公司情报和新闻",
+        "longDescription": "在 Codex 中使用 LSEG：金融市场数据、公司情报和新闻。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 LSEG 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "magicpath": {
+      "description": "在 Codex 中查找、安装和编写 MagicPath UI 组件",
+      "interface": {
+        "shortDescription": "在 Codex 中查找、安装和编写 MagicPath UI 组件",
+        "longDescription": "在 Codex 中使用 MagicPath：在 Codex 中查找、安装和编写 MagicPath UI 组件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 MagicPath 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "marcopolo": {
+      "description": "启动安全容器，让 Codex 处理你的真实数据",
+      "interface": {
+        "shortDescription": "启动安全容器，让 Codex 处理你的真实数据",
+        "longDescription": "在 Codex 中使用 MarcoPolo：启动安全容器，让 Codex 处理你的真实数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 MarcoPolo 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "mem": {
+      "description": "连接 Mem 知识库，为 Codex 提供第二大脑上下文",
+      "interface": {
+        "shortDescription": "连接 Mem 知识库，为 Codex 提供第二大脑上下文",
+        "longDescription": "在 Codex 中使用 Mem：连接 Mem 知识库，为 Codex 提供第二大脑上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Mem 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "meticulate": {
+      "description": "公司匹配、企业画像查询和市场进入账户情报",
+      "interface": {
+        "shortDescription": "公司匹配、企业画像查询和市场进入账户情报",
+        "longDescription": "在 Codex 中使用 Meticulate：公司匹配、企业画像查询和市场进入账户情报。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Meticulate 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "midpage": {
+      "description": "法律研究、案例、法规和带引用的研究备忘录",
+      "interface": {
+        "shortDescription": "法律研究、案例、法规和带引用的研究备忘录",
+        "longDescription": "在 Codex 中使用 Midpage：法律研究、案例、法规和带引用的研究备忘录。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Midpage 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "mixpanel": {
+      "description": "查询和分析 Mixpanel",
+      "interface": {
+        "shortDescription": "查询和分析 Mixpanel",
+        "longDescription": "在 Codex 中使用 Mixpanel：查询和分析 Mixpanel。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Mixpanel 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "mixpanel-headless": {
+      "description": "使用 Python 分析 Mixpanel 数据",
+      "interface": {
+        "shortDescription": "使用 Python 分析 Mixpanel 数据",
+        "longDescription": "在 Codex 中使用 Mixpanel Headless：使用 Python 分析 Mixpanel 数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Mixpanel Headless 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "monday-com": {
+      "description": "让 AI 智能体无缝操作 monday.com 的 MCP 连接器",
+      "interface": {
+        "shortDescription": "让 AI 智能体无缝操作 monday.com 的 MCP 连接器",
+        "longDescription": "在 Codex 中使用 Monday.com：让 AI 智能体无缝操作 monday.com 的 MCP 连接器。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Monday.com 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "moody-s": {
+      "description": "信用评级、研究、实体情报、股权结构、财务和备案",
+      "interface": {
+        "shortDescription": "信用评级、研究、实体情报、股权结构、财务和备案",
+        "longDescription": "在 Codex 中使用 Moody's：信用评级、研究、实体情报、股权结构、财务和备案。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Moody's 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "morningstar": {
+      "description": "使用 Morningstar 应用筛选、总结和比较基金",
+      "interface": {
+        "shortDescription": "使用 Morningstar 应用筛选、总结和比较基金",
+        "longDescription": "在 Codex 中使用 Morningstar：使用 Morningstar 应用筛选、总结和比较基金。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Morningstar 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "motherduck": {
+      "description": "把 AI 助手连接到 MotherDuck 数据仓库",
+      "interface": {
+        "shortDescription": "把 AI 助手连接到 MotherDuck 数据仓库",
+        "longDescription": "在 Codex 中使用 MotherDuck：把 AI 助手连接到 MotherDuck 数据仓库。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 MotherDuck 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "mt-newswires": {
+      "description": "将实时全球金融新闻直接带入 Codex",
+      "interface": {
+        "shortDescription": "将实时全球金融新闻直接带入 Codex",
+        "longDescription": "在 Codex 中使用 MT Newswires：将实时全球金融新闻直接带入 Codex。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 MT Newswires 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "myregistry-com": {
+      "description": "帮助亲友轻松购买你真正想要的礼物",
+      "interface": {
+        "shortDescription": "帮助亲友轻松购买你真正想要的礼物",
+        "longDescription": "在 Codex 中使用 MyRegistry.com：帮助亲友轻松购买你真正想要的礼物。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 MyRegistry.com 帮我处理相关任务。"
+        ]
+      }
+    },
+    "neon-postgres": {
+      "description": "管理 Neon Serverless Postgres 项目和数据库",
+      "interface": {
+        "shortDescription": "管理 Neon Serverless Postgres 项目和数据库",
+        "longDescription": "在 Codex 中使用 Neon Postgres：管理 Neon Serverless Postgres 项目和数据库。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Neon Postgres 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "netlify": {
+      "description": "部署项目并管理发布",
+      "interface": {
+        "shortDescription": "部署项目并管理发布",
+        "longDescription": "在 Codex 中使用 Netlify：部署项目并管理发布。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Netlify 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "network-solutions": {
+      "description": "用对话方式快速查找可用域名",
+      "interface": {
+        "shortDescription": "用对话方式快速查找可用域名",
+        "longDescription": "在 Codex 中使用 Network Solutions：用对话方式快速查找可用域名。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Network Solutions 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "ngs-analysis": {
+      "description": "测序分析的 NGS 路由和本地执行指南",
+      "interface": {
+        "shortDescription": "测序分析的 NGS 路由和本地执行指南",
+        "longDescription": "在 Codex 中使用 Life Sciences NGS Analysis：测序分析的 NGS 路由和本地执行指南。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Life Sciences NGS Analysis 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "notion": {
+      "description": "用于规格、研究、会议和知识沉淀的 Notion 工作流",
+      "interface": {
+        "shortDescription": "用于规格、研究、会议和知识沉淀的 Notion 工作流",
+        "longDescription": "在 Codex 中使用 Notion：用于规格、研究、会议和知识沉淀的 Notion 工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": "使用 Notion 帮我检索信息、整理上下文并推进后续操作。"
+      }
+    },
+    "nvidia": {
+      "description": "NVIDIA AI、GPU、机器人、仿真和 3D 工作流指南",
+      "interface": {
+        "shortDescription": "NVIDIA AI、GPU、机器人、仿真和 3D 工作流指南",
+        "longDescription": "在 Codex 中使用 NVIDIA：NVIDIA AI、GPU、机器人、仿真和 3D 工作流指南。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 NVIDIA 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "omni-analytics": {
+      "description": "在 Codex 中按数据团队定义的语义模型和权限查询 Omni",
+      "interface": {
+        "shortDescription": "在 Codex 中按数据团队定义的语义模型和权限查询 Omni",
+        "longDescription": "在 Codex 中使用 Omni Analytics：在 Codex 中按数据团队定义的语义模型和权限查询 Omni。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Omni Analytics 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "openai-developers": {
+      "description": "按照 OpenAI 最佳实践开发 AI 应用、智能体和 ChatGPT Apps",
+      "interface": {
+        "shortDescription": "按照 OpenAI 最佳实践开发 AI 应用、智能体和 ChatGPT Apps",
+        "longDescription": "在 Codex 中使用 OpenAI Developers：按照 OpenAI 最佳实践开发 AI 应用、智能体和 ChatGPT Apps。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 OpenAI Developers 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "otter-ai": {
+      "description": "将 Otter.ai 会议智能连接到 Codex，搜索和检索转录内容",
+      "interface": {
+        "shortDescription": "将 Otter.ai 会议智能连接到 Codex，搜索和检索转录内容",
+        "longDescription": "在 Codex 中使用 Otter.ai：将 Otter.ai 会议智能连接到 Codex，搜索和检索转录内容。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Otter.ai 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "outlook-calendar": {
+      "description": "管理 Outlook 日程和会议变更",
+      "interface": {
+        "shortDescription": "管理 Outlook 日程和会议变更",
+        "longDescription": "在 Codex 中使用 Outlook Calendar：管理 Outlook 日程和会议变更。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": "使用 Outlook Calendar 帮我检索信息、整理上下文并推进后续操作。"
+      }
+    },
+    "outlook-email": {
+      "description": "处理 Outlook 收件箱并草拟回复",
+      "interface": {
+        "shortDescription": "处理 Outlook 收件箱并草拟回复",
+        "longDescription": "在 Codex 中使用 Outlook Email：处理 Outlook 收件箱并草拟回复。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Outlook Email 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "outreach": {
+      "description": "销售互动、潜在客户、序列和交易活动上下文",
+      "interface": {
+        "shortDescription": "销售互动、潜在客户、序列和交易活动上下文",
+        "longDescription": "在 Codex 中使用 Outreach：销售互动、潜在客户、序列和交易活动上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Outreach 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "particl-market-research": {
+      "description": "帮助团队在 Codex 中回答电商研究问题",
+      "interface": {
+        "shortDescription": "帮助团队在 Codex 中回答电商研究问题",
+        "longDescription": "在 Codex 中使用 Particl Market Research：帮助团队在 Codex 中回答电商研究问题。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Particl Market Research 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "picsart": {
+      "description": "来自 Picsart 的图像编辑、创意素材和设计工作流",
+      "interface": {
+        "shortDescription": "来自 Picsart 的图像编辑、创意素材和设计工作流",
+        "longDescription": "在 Codex 中使用 Picsart：来自 Picsart 的图像编辑、创意素材和设计工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Picsart 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "pipedrive": {
+      "description": "连接并同步 Pipedrive 交易和联系人供 Codex 使用",
+      "interface": {
+        "shortDescription": "连接并同步 Pipedrive 交易和联系人供 Codex 使用",
+        "longDescription": "在 Codex 中使用 Pipedrive：连接并同步 Pipedrive 交易和联系人供 Codex 使用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Pipedrive 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "pitchbook": {
+      "description": "结构化访问私募资本市场数据",
+      "interface": {
+        "shortDescription": "结构化访问私募资本市场数据",
+        "longDescription": "在 Codex 中使用 PitchBook：结构化访问私募资本市场数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 PitchBook 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "plugin-eval": {
+      "description": "从聊天开始，在本地评估或基准测试插件",
+      "interface": {
+        "shortDescription": "从聊天开始，在本地评估或基准测试插件",
+        "longDescription": "在 Codex 中使用 Plugin Eval：从聊天开始，在本地评估或基准测试插件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Plugin Eval 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "policynote": {
+      "description": "访问全球结构化政策和监管情报",
+      "interface": {
+        "shortDescription": "访问全球结构化政策和监管情报",
+        "longDescription": "在 Codex 中使用 PolicyNote：访问全球结构化政策和监管情报。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 PolicyNote 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "posthog": {
+      "description": "查询分析、功能旗标、实验和错误",
+      "interface": {
+        "shortDescription": "查询分析、功能旗标、实验和错误",
+        "longDescription": "在 Codex 中使用 PostHog：查询分析、功能旗标、实验和错误。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 PostHog 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "pylon": {
+      "description": "直接从 Codex 访问 Pylon 客服平台，搜索、管理并解决客户问题",
+      "interface": {
+        "shortDescription": "直接从 Codex 访问 Pylon 客服平台，搜索、管理并解决客户问题",
+        "longDescription": "在 Codex 中使用 Pylon：直接从 Codex 访问 Pylon 客服平台，搜索、管理并解决客户问题。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Pylon 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "quartr": {
+      "description": "访问来自全球上市公司的结构化一手投资者关系数据",
+      "interface": {
+        "shortDescription": "访问来自全球上市公司的结构化一手投资者关系数据",
+        "longDescription": "在 Codex 中使用 Quartr：访问来自全球上市公司的结构化一手投资者关系数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Quartr 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "quickbooks": {
+      "description": "QuickBooks 会计、发票、费用、客户和付款上下文",
+      "interface": {
+        "shortDescription": "QuickBooks 会计、发票、费用、客户和付款上下文",
+        "longDescription": "在 Codex 中使用 QuickBooks：QuickBooks 会计、发票、费用、客户和付款上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 QuickBooks 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "quicknode": {
+      "description": "直接在 OpenAI 中管理 Quicknode 基础设施",
+      "interface": {
+        "shortDescription": "直接在 OpenAI 中管理 Quicknode 基础设施",
+        "longDescription": "在 Codex 中使用 Quicknode：直接在 OpenAI 中管理 Quicknode 基础设施。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Quicknode 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "ranked-ai": {
+      "description": "AI SEO 与 PPC 软件以及托管服务",
+      "interface": {
+        "shortDescription": "AI SEO 与 PPC 软件以及托管服务",
+        "longDescription": "在 Codex 中使用 Ranked AI：AI SEO 与 PPC 软件以及托管服务。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Ranked AI 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "razorpay": {
+      "description": "连接 Razorpay 账户，通过对话访问支付数据",
+      "interface": {
+        "shortDescription": "连接 Razorpay 账户，通过对话访问支付数据",
+        "longDescription": "在 Codex 中使用 Razorpay：连接 Razorpay 账户，通过对话访问支付数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Razorpay 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "read-ai": {
+      "description": "把会议智能直接带入 AI 工作流",
+      "interface": {
+        "shortDescription": "把会议智能直接带入 AI 工作流",
+        "longDescription": "在 Codex 中使用 Read AI：把会议智能直接带入 AI 工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Read AI 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "readwise": {
+      "description": "Readwise 和 Reader 的官方应用",
+      "interface": {
+        "shortDescription": "Readwise 和 Reader 的官方应用",
+        "longDescription": "在 Codex 中使用 Readwise：Readwise 和 Reader 的官方应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Readwise 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "remotion": {
+      "description": "根据提示创建动态图形",
+      "interface": {
+        "shortDescription": "根据提示创建动态图形",
+        "longDescription": "在 Codex 中使用 Remotion：根据提示创建动态图形。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Remotion 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "render": {
+      "description": "在 Render 上部署、调试、监控和迁移应用",
+      "interface": {
+        "shortDescription": "在 Render 上部署、调试、监控和迁移应用",
+        "longDescription": "在 Codex 中使用 Render：在 Render 上部署、调试、监控和迁移应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Render 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "replit": {
+      "description": "处理 Replit 项目、应用、部署和工作区上下文",
+      "interface": {
+        "shortDescription": "处理 Replit 项目、应用、部署和工作区上下文",
+        "longDescription": "在 Codex 中使用 Replit：处理 Replit 项目、应用、部署和工作区上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Replit 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "responsive": {
+      "description": "在 Codex 中轻松使用组织数据",
+      "interface": {
+        "shortDescription": "在 Codex 中轻松使用组织数据",
+        "longDescription": "在 Codex 中使用 Responsive：在 Codex 中轻松使用组织数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Responsive 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "rox": {
+      "description": "在 Codex 中使用 Rox 收入智能体和账户情报",
+      "interface": {
+        "shortDescription": "在 Codex 中使用 Rox 收入智能体和账户情报",
+        "longDescription": "在 Codex 中使用 Rox：在 Codex 中使用 Rox 收入智能体和账户情报。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Rox 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "s-p": {
+      "description": "公司财务、评级上下文、市场研究和行业数据",
+      "interface": {
+        "shortDescription": "公司财务、评级上下文、市场研究和行业数据",
+        "longDescription": "在 Codex 中使用 S&P Global：公司财务、评级上下文、市场研究和行业数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 S&P Global 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "scite": {
+      "description": "提供可验证、基于同行评议研究的答案",
+      "interface": {
+        "shortDescription": "提供可验证、基于同行评议研究的答案",
+        "longDescription": "在 Codex 中使用 Scite：提供可验证、基于同行评议研究的答案。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Scite 帮我检索资料并整理研究结论。"
+        ]
+      }
+    },
+    "semrush": {
+      "description": "为域名、关键词、反向链接和流量提供结构化 SEO 数据",
+      "interface": {
+        "shortDescription": "为域名、关键词、反向链接和流量提供结构化 SEO 数据",
+        "longDescription": "在 Codex 中使用 Semrush：为域名、关键词、反向链接和流量提供结构化 SEO 数据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Semrush 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "sendgrid": {
+      "description": "用于操作 SendGrid 邮件 API 的连接器",
+      "interface": {
+        "shortDescription": "用于操作 SendGrid 邮件 API 的连接器",
+        "longDescription": "在 Codex 中使用 SendGrid：用于操作 SendGrid 邮件 API 的连接器。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 SendGrid 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "sentry": {
+      "description": "检查近期 Sentry 问题和事件",
+      "interface": {
+        "shortDescription": "检查近期 Sentry 问题和事件",
+        "longDescription": "在 Codex 中使用 Sentry：检查近期 Sentry 问题和事件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Sentry 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "setu-bharat-connect-billpay": {
+      "description": "通过简单对话支付水电等公共事业账单",
+      "interface": {
+        "shortDescription": "通过简单对话支付水电等公共事业账单",
+        "longDescription": "在 Codex 中使用 Setu Bharat Connect BillPay ：通过简单对话支付水电等公共事业账单。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Setu Bharat Connect BillPay  查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "sharepoint": {
+      "description": "总结 SharePoint 网站和文件",
+      "interface": {
+        "shortDescription": "总结 SharePoint 网站和文件",
+        "longDescription": "在 Codex 中使用 SharePoint：总结 SharePoint 网站和文件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 SharePoint 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "shopify": {
+      "description": "构建 Shopify 应用、主题、店面和 API",
+      "interface": {
+        "shortDescription": "构建 Shopify 应用、主题、店面和 API",
+        "longDescription": "在 Codex 中使用 Shopify：构建 Shopify 应用、主题、店面和 API。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Shopify 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "shutterstock": {
+      "description": "搜索授权图库图片、视频、音乐和创意素材",
+      "interface": {
+        "shortDescription": "搜索授权图库图片、视频、音乐和创意素材",
+        "longDescription": "在 Codex 中使用 Shutterstock：搜索授权图库图片、视频、音乐和创意素材。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Shutterstock 帮我创建、查找或优化相关创意素材。"
+        ]
+      }
+    },
+    "signnow": {
+      "description": "不用切换工具，更快完成文档签署",
+      "interface": {
+        "shortDescription": "不用切换工具，更快完成文档签署",
+        "longDescription": "在 Codex 中使用 SignNow：不用切换工具，更快完成文档签署。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 SignNow 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "similarweb": {
+      "description": "数字市场情报和网站流量分析",
+      "interface": {
+        "shortDescription": "数字市场情报和网站流量分析",
+        "longDescription": "在 Codex 中使用 Similarweb：数字市场情报和网站流量分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Similarweb 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "skywatch": {
+      "description": "搜索和探索来自多个供应商的卫星影像",
+      "interface": {
+        "shortDescription": "搜索和探索来自多个供应商的卫星影像",
+        "longDescription": "在 Codex 中使用 SkyWatch：搜索和探索来自多个供应商的卫星影像。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 SkyWatch 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "slack": {
+      "description": "读取和管理 Slack",
+      "interface": {
+        "shortDescription": "读取和管理 Slack",
+        "longDescription": "在 Codex 中使用 Slack：读取和管理 Slack。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Slack 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "statsig": {
+      "description": "把 Statsig 工作区带入 Codex",
+      "interface": {
+        "shortDescription": "把 Statsig 工作区带入 Codex",
+        "longDescription": "在 Codex 中使用 Statsig：把 Statsig 工作区带入 Codex。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Statsig 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "streak": {
+      "description": "内置于 Gmail 的 CRM，用于跟踪交易、联系人和工作流",
+      "interface": {
+        "shortDescription": "内置于 Gmail 的 CRM，用于跟踪交易、联系人和工作流",
+        "longDescription": "在 Codex 中使用 Streak：内置于 Gmail 的 CRM，用于跟踪交易、联系人和工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Streak 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "stripe": {
+      "description": "支付和业务工具",
+      "interface": {
+        "shortDescription": "支付和业务工具",
+        "longDescription": "在 Codex 中使用 Stripe：支付和业务工具。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Stripe 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "supabase": {
+      "description": "面向 Codex 的 Supabase 技能和 MCP 工具",
+      "interface": {
+        "shortDescription": "面向 Codex 的 Supabase 技能和 MCP 工具",
+        "longDescription": "在 Codex 中使用 Supabase：面向 Codex 的 Supabase 技能和 MCP 工具。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Supabase 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "superhuman": {
+      "description": "面向 Gmail 和 Outlook 的高效邮件应用",
+      "interface": {
+        "shortDescription": "面向 Gmail 和 Outlook 的高效邮件应用",
+        "longDescription": "在 Codex 中使用 Superhuman Mail：面向 Gmail 和 Outlook 的高效邮件应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Superhuman Mail 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "superpowers": {
+      "description": "面向编码智能体的规划、TDD、调试和交付工作流",
+      "interface": {
+        "shortDescription": "面向编码智能体的规划、TDD、调试和交付工作流",
+        "longDescription": "在 Codex 中使用 Superpowers：面向编码智能体的规划、TDD、调试和交付工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Superpowers 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "taxdown": {
+      "description": "帮助西班牙个人和自由职业者解答税务问题",
+      "interface": {
+        "shortDescription": "帮助西班牙个人和自由职业者解答税务问题",
+        "longDescription": "在 Codex 中使用 Taxdown：帮助西班牙个人和自由职业者解答税务问题。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Taxdown 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "teams": {
+      "description": "总结 Teams 内容并草拟后续跟进",
+      "interface": {
+        "shortDescription": "总结 Teams 内容并草拟后续跟进",
+        "longDescription": "在 Codex 中使用 Teams：总结 Teams 内容并草拟后续跟进。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Teams 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "teamwork-com": {
+      "description": "连接并同步 Teamwork 项目和任务供 Codex 使用",
+      "interface": {
+        "shortDescription": "连接并同步 Teamwork 项目和任务供 Codex 使用",
+        "longDescription": "在 Codex 中使用 Teamwork.com：连接并同步 Teamwork 项目和任务供 Codex 使用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Teamwork.com 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "temporal": {
+      "description": "开发、运行并管理完整 Temporal 平台生命周期",
+      "interface": {
+        "shortDescription": "开发、运行并管理完整 Temporal 平台生命周期",
+        "longDescription": "在 Codex 中使用 Temporal：开发、运行并管理完整 Temporal 平台生命周期。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Temporal 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "test-android-apps": {
+      "description": "在 Android 模拟器中复现问题、检查 UI 并采集性能证据",
+      "interface": {
+        "shortDescription": "在 Android 模拟器中复现问题、检查 UI 并采集性能证据",
+        "longDescription": "在 Codex 中使用 Test Android Apps：在 Android 模拟器中复现问题、检查 UI 并采集性能证据。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Test Android Apps 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "third-bridge": {
+      "description": "将行业专家的关键背景和可信洞察纳入金融分析",
+      "interface": {
+        "shortDescription": "将行业专家的关键背景和可信洞察纳入金融分析",
+        "longDescription": "在 Codex 中使用 Third Bridge：将行业专家的关键背景和可信洞察纳入金融分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Third Bridge 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "thoughtspot": {
+      "description": "商业智能答案、仪表盘、指标和收入分析",
+      "interface": {
+        "shortDescription": "商业智能答案、仪表盘、指标和收入分析",
+        "longDescription": "在 Codex 中使用 ThoughtSpot：商业智能答案、仪表盘、指标和收入分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 ThoughtSpot 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "tinman-ai": {
+      "description": "帮助贷款专员和承销人员快速评估住房融资场景",
+      "interface": {
+        "shortDescription": "帮助贷款专员和承销人员快速评估住房融资场景",
+        "longDescription": "在 Codex 中使用 Tinman AI：帮助贷款专员和承销人员快速评估住房融资场景。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Tinman AI 查询相关金融数据，并整理关键结论。"
+        ]
+      }
+    },
+    "twilio-developer-kit": {
+      "description": "用于在 Twilio 上构建、调试和发布的技能集",
+      "interface": {
+        "shortDescription": "用于在 Twilio 上构建、调试和发布的技能集",
+        "longDescription": "在 Codex 中使用 Twilio Developer Kit：用于在 Twilio 上构建、调试和发布的技能集。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Twilio Developer Kit 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "united-rentals": {
+      "description": "不用猜测即可找到适合工作的设备",
+      "interface": {
+        "shortDescription": "不用猜测即可找到适合工作的设备",
+        "longDescription": "在 Codex 中使用 United Rentals：不用猜测即可找到适合工作的设备。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 United Rentals 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "vantage": {
+      "description": "聚合云基础设施成本的云可观测和优化平台",
+      "interface": {
+        "shortDescription": "聚合云基础设施成本的云可观测和优化平台",
+        "longDescription": "在 Codex 中使用 Vantage：聚合云基础设施成本的云可观测和优化平台。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Vantage 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "vercel": {
+      "description": "构建并部署 Web 应用和智能体",
+      "interface": {
+        "shortDescription": "构建并部署 Web 应用和智能体",
+        "longDescription": "在 Codex 中使用 Vercel：构建并部署 Web 应用和智能体。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Vercel 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "waldo": {
+      "description": "面向代理机构和品牌的 AI 策略平台",
+      "interface": {
+        "shortDescription": "面向代理机构和品牌的 AI 策略平台",
+        "longDescription": "在 Codex 中使用 Waldo：面向代理机构和品牌的 AI 策略平台。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Waldo 帮我检索信息、整理上下文并推进后续操作。"
+        ]
+      }
+    },
+    "weatherpromise": {
+      "description": "为旅行提供降雨保障，超过承诺雨量即可退还费用",
+      "interface": {
+        "shortDescription": "为旅行提供降雨保障，超过承诺雨量即可退还费用",
+        "longDescription": "在 Codex 中使用 WeatherPromise：为旅行提供降雨保障，超过承诺雨量即可退还费用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 WeatherPromise 帮我查找合适选项并整理建议。"
+        ]
+      }
+    },
+    "windsor-ai": {
+      "description": "连接营销和业务数据源，用自然语言提问",
+      "interface": {
+        "shortDescription": "连接营销和业务数据源，用自然语言提问",
+        "longDescription": "在 Codex 中使用 Windsor.ai：连接营销和业务数据源，用自然语言提问。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Windsor.ai 帮我分析数据并总结洞察。"
+        ]
+      }
+    },
+    "wix": {
+      "description": "构建 Wix 应用、无头网站并管理 Wix 业务",
+      "interface": {
+        "shortDescription": "构建 Wix 应用、无头网站并管理 Wix 业务",
+        "longDescription": "在 Codex 中使用 Wix：构建 Wix 应用、无头网站并管理 Wix 业务。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Wix 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "yepcode": {
+      "description": "用自有代码和 JSON Schema 输入构建自定义 AI 工具",
+      "interface": {
+        "shortDescription": "用自有代码和 JSON Schema 输入构建自定义 AI 工具",
+        "longDescription": "在 Codex 中使用 YepCode：用自有代码和 JSON Schema 输入构建自定义 AI 工具。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 YepCode 帮我完成开发、调试、部署或项目维护任务。"
+        ]
+      }
+    },
+    "zoho": {
+      "description": "来自 Zoho 的 CRM 记录、交易、联系人和账户上下文",
+      "interface": {
+        "shortDescription": "来自 Zoho 的 CRM 记录、交易、联系人和账户上下文",
+        "longDescription": "在 Codex 中使用 Zoho：来自 Zoho 的 CRM 记录、交易、联系人和账户上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Zoho 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "zoom": {
+      "description": "使用 Zoom 会议上下文并构建 Zoom 集成",
+      "interface": {
+        "shortDescription": "使用 Zoom 会议上下文并构建 Zoom 集成",
+        "longDescription": "在 Codex 中使用 Zoom：使用 Zoom 会议上下文并构建 Zoom 集成。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Zoom 帮我总结沟通内容并草拟后续跟进。"
+        ]
+      }
+    },
+    "zoominfo": {
+      "description": "B2B 公司情报、联系人和市场进入信号",
+      "interface": {
+        "shortDescription": "B2B 公司情报、联系人和市场进入信号",
+        "longDescription": "在 Codex 中使用 ZoomInfo：B2B 公司情报、联系人和市场进入信号。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 ZoomInfo 帮我分析业务数据并推进销售或运营动作。"
+        ]
+      }
+    },
+    "zotero": {
+      "description": "从 Zotero 查找论文并添加引用",
+      "interface": {
+        "shortDescription": "从 Zotero 查找论文并添加引用",
+        "longDescription": "在 Codex 中使用 Zotero：从 Zotero 查找论文并添加引用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
+        "defaultPrompt": [
+          "使用 Zotero 帮我检索资料并整理研究结论。"
+        ]
+      }
+    }
+  }
 }

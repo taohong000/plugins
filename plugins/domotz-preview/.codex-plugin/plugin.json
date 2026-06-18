@@ -1,7 +1,7 @@
 {
   "name": "domotz-preview",
   "version": "1.0.3",
-  "description": "Monitor and manage your network infrastructure through natural language.",
+  "description": "通过自然语言监控和管理网络基础设施",
   "author": {
     "name": "Domotz",
     "url": "https://www.domotz.com"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Domotz (Preview)",
-    "shortDescription": "Monitor and manage your network infrastructure through natural language.",
-    "longDescription": "Monitor and manage your network infrastructure through natural language. Query devices, check alerts, inspect metrics, manage configurations, and control power across all your sites. Requires a Domotz account enabled to the MCP Preview program.",
+    "shortDescription": "通过自然语言监控和管理网络基础设施",
+    "longDescription": "在 Codex 中使用 Domotz (Preview)：通过自然语言监控和管理网络基础设施。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Domotz",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Summarize the current network state in Domotz"
+      "使用 Domotz (Preview) 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "websiteURL": "https://www.domotz.com",

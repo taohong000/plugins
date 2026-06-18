@@ -1,7 +1,7 @@
 {
   "name": "meticulate",
   "version": "1.0.2",
-  "description": "Company matching, firmographic lookup, and go-to-market account intelligence",
+  "description": "公司匹配、企业画像查询和市场进入账户情报",
   "author": {
     "name": "Meticulate"
   },
@@ -12,15 +12,13 @@
   "interface": {
     "displayName": "Meticulate",
     "developerName": "Meticulate",
-    "shortDescription": "Company matching, firmographic lookup, and go-to-market account intelligence",
-    "longDescription": "Company matching, firmographic lookup, and go-to-market account intelligence",
+    "shortDescription": "公司匹配、企业画像查询和市场进入账户情报",
+    "longDescription": "在 Codex 中使用 Meticulate：公司匹配、企业画像查询和市场进入账户情报。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "brandColor": "#7000D8",
     "defaultPrompt": [
-      "Search Meticulate for companies matching this ICP and summarize the strongest fits.",
-      "Look up a company by SFDC account ID and fetch its firmographic summary.",
-      "Find companies similar to this seed company and explain why they are good lookalikes."
+      "使用 Meticulate 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

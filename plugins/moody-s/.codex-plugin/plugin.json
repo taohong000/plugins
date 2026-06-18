@@ -1,7 +1,7 @@
 {
   "name": "moody-s",
   "version": "1.0.2",
-  "description": "Credit ratings, entity intelligence, and research via Moody's GenAI-Ready Data.",
+  "description": "信用评级、研究、实体情报、股权结构、财务和备案",
   "author": {
     "name": "Moody's",
     "url": "https://www.moodys.com"
@@ -35,8 +35,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Moody's",
-    "shortDescription": "Credit ratings, research, entity intelligence, ownership, financials, and filings.",
-    "longDescription": "Connect to Moody's GenAI-Ready Data through the enterprise MCP integration. Resolve covered entities, retrieve ratings and outlooks, analyze credit opinions, scorecards, upgrade/downgrade drivers, ESG considerations, ownership structures, subsidiaries, company profiles, financial statements, filings, earnings-call transcripts, news, peer sets, sector outlooks, and country-risk context, all within your workflow.",
+    "shortDescription": "信用评级、研究、实体情报、股权结构、财务和备案",
+    "longDescription": "在 Codex 中使用 Moody's：信用评级、研究、实体情报、股权结构、财务和备案。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Moody's",
     "category": "Finance",
     "capabilities": [
@@ -61,9 +61,7 @@
     "termsOfServiceURL": "https://www.moodys.com/web/en/us/legal/terms-of-use.html",
     "brandColor": "#003366",
     "defaultPrompt": [
-      "Summarize a company's Moody's profile and ownership.",
-      "Summarize a company's Moody's ratings and credit opinion.",
-      "Summarize a company's latest financials and filings in Moody's."
+      "使用 Moody's 查询相关金融数据，并整理关键结论。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

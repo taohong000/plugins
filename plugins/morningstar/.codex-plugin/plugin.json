@@ -1,7 +1,7 @@
 {
   "name": "morningstar",
   "version": "1.0.3",
-  "description": "Morningstar fund research plugin for screening, summarizing, and comparing funds and ETFs using the Morningstar ChatGPT app.",
+  "description": "使用 Morningstar 应用筛选、总结和比较基金",
   "author": {
     "name": "Morningstar",
     "url": "https://www.morningstar.com"
@@ -20,8 +20,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Morningstar",
-    "shortDescription": "Screen, summarize, and compare funds with the Morningstar app.",
-    "longDescription": "Bundled Morningstar fund workflows for Codex: production screening with normalization, fund returns screening, single-fund deep summaries, and side-by-side comparison for 2 to 4 funds. The plugin links to the reviewed Morningstar ChatGPT app for authenticated data access and includes explicit data-availability disclosures.",
+    "shortDescription": "使用 Morningstar 应用筛选、总结和比较基金",
+    "longDescription": "在 Codex 中使用 Morningstar：使用 Morningstar 应用筛选、总结和比较基金。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Morningstar",
     "category": "Finance",
     "capabilities": [
@@ -33,9 +33,7 @@
     "privacyPolicyURL": "https://www.morningstar.com/company/privacy-center/privacy-policy",
     "termsOfServiceURL": "https://www.morningstar.com/company/terms-and-conditions",
     "defaultPrompt": [
-      "Use fund-screener to find Gold-rated US large-cap ETFs.",
-      "Use fund-summarizer to analyze VFIAX.",
-      "Use fund-comparison to compare VFIAX, SWPPX, and FXAIX."
+      "使用 Morningstar 查询相关金融数据，并整理关键结论。"
     ],
     "brandColor": "#E4572E",
     "composerIcon": "./assets/app-icon.png",

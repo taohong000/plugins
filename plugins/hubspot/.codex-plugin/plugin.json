@@ -1,7 +1,7 @@
 {
   "name": "hubspot",
   "version": "2.0.3",
-  "description": "Work with your HubSpot data to analyze patterns, create and update records, and manage your CRM operations.",
+  "description": "分析 HubSpot 数据、创建和更新记录并管理 CRM 运营",
   "author": {
     "name": "HubSpot",
     "url": "https://www.hubspot.com/"
@@ -20,8 +20,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "HubSpot",
-    "shortDescription": "Work with your HubSpot data to analyze patterns, create and update records, and manage your CRM operations.",
-    "longDescription": "Work with your HubSpot data to analyze patterns, create and update records, and manage your CRM operations. Read from and write to deals, contacts, companies, tickets, engagements, and other objects you have permission to access. Prepare reports, update deal stages, log calls and emails, create tasks, or review pipeline details before meetings. Use it for quick updates in chat or comprehensive CRM management, all grounded in your actual HubSpot data.",
+    "shortDescription": "分析 HubSpot 数据、创建和更新记录并管理 CRM 运营",
+    "longDescription": "在 Codex 中使用 HubSpot：分析 HubSpot 数据、创建和更新记录并管理 CRM 运营。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "HubSpot",
     "category": "Business & Operations",
     "capabilities": [
@@ -33,9 +33,7 @@
     "privacyPolicyURL": "https://legal.hubspot.com/privacy-policy",
     "termsOfServiceURL": "https://legal.hubspot.com/terms-of-service",
     "defaultPrompt": [
-      "Review pipeline health and flag risky open deals",
-      "Prepare an account brief for a customer meeting",
-      "Find CRM records with stale or missing data"
+      "使用 HubSpot 帮我分析业务数据并推进销售或运营动作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

@@ -1,7 +1,7 @@
 {
   "name": "convex",
   "version": "0.1.2",
-  "description": "Add a reactive, type-safe backend, database, server functions, and scaling guidance to JavaScript and TypeScript apps with Convex.",
+  "description": "为 JavaScript/TypeScript 应用添加后端",
   "author": {
     "name": "Convex, Inc.",
     "email": "support@convex.dev",
@@ -34,8 +34,8 @@
   ],
   "interface": {
     "displayName": "Convex",
-    "shortDescription": "Add a backend to JS/TS apps.",
-    "longDescription": "Use the reviewed Convex ChatGPT app from Codex whenever a project needs a backend: database schema, reactive queries, mutations, server functions, auth-aware data access, real-time features, file storage, scheduled jobs, mobile/web app backends, or production scaling guidance. Convex helps coding agents choose backend primitives that are type-safe, reactive, and suitable for full-stack JavaScript and TypeScript apps.",
+    "shortDescription": "为 JavaScript/TypeScript 应用添加后端",
+    "longDescription": "在 Codex 中使用 Convex：为 JavaScript/TypeScript 应用添加后端。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Convex, Inc.",
     "category": "Developer Tools",
     "capabilities": [
@@ -53,9 +53,7 @@
     "websiteURL": "https://chatgpt.com/apps/convex/asdk_app_6a0faef988b48191b843bac5cd170a9e",
     "privacyPolicyURL": "https://mcp.convex.dev/privacy",
     "defaultPrompt": [
-      "Add a backend to this app.",
-      "Design the database schema.",
-      "Add real-time data updates."
+      "使用 Convex 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#EE342F",
     "termsOfServiceURL": "https://www.convex.dev/legal/tos",

@@ -1,7 +1,7 @@
 {
   "name": "circleci",
   "version": "1.0.4",
-  "description": "Build, test, and deploy any application",
+  "description": "构建、测试并部署任意应用",
   "author": {
     "name": "CircleCI",
     "url": "https://circleci.com"
@@ -17,8 +17,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "CircleCI",
-    "shortDescription": "Build, test, and deploy any application",
-    "longDescription": "Bring testing, deployment, and CI best practices into Codex",
+    "shortDescription": "构建、测试并部署任意应用",
+    "longDescription": "在 Codex 中使用 CircleCI：构建、测试并部署任意应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "CircleCI",
     "category": "Developer Tools",
     "capabilities": [
@@ -29,9 +29,7 @@
     "privacyPolicyURL": "https://circleci.com/legal/privacy-policy",
     "termsOfServiceURL": "https://circleci.com/legal/terms-of-service",
     "defaultPrompt": [
-      "Review the CircleCI configuration for this project and suggest improvements",
-      "Diagnose and fix build failures for the current branch",
-      "Setup the Chunk cli for this project"
+      "使用 CircleCI 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#049B4A",
     "composerIcon": "./assets/composer-icon.svg",

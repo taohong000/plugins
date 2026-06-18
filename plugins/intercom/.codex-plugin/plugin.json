@@ -1,7 +1,7 @@
 {
   "name": "intercom",
   "version": "1.0.3",
-  "description": "Customer conversations, contacts, tickets, and support workflows from Intercom",
+  "description": "来自 Intercom 的客户对话、联系人、工单和支持工作流",
   "author": {
     "name": "Intercom",
     "url": "https://www.intercom.com"
@@ -13,8 +13,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Intercom",
-    "shortDescription": "Customer conversations, contacts, tickets, and support workflows from Intercom",
-    "longDescription": "Customer conversations, contacts, tickets, and support workflows from Intercom",
+    "shortDescription": "来自 Intercom 的客户对话、联系人、工单和支持工作流",
+    "longDescription": "在 Codex 中使用 Intercom：来自 Intercom 的客户对话、联系人、工单和支持工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Intercom",
     "category": "Business & Operations",
     "capabilities": [],
@@ -22,9 +22,7 @@
     "privacyPolicyURL": "https://www.intercom.com/legal/privacy",
     "termsOfServiceURL": "https://www.intercom.com/legal/terms-and-policies",
     "defaultPrompt": [
-      "Search Intercom for open billing conversations and summarize top issues.",
-      "Find Intercom contacts from example.com and pull recent conversation history.",
-      "Fetch this Intercom conversation and draft next steps."
+      "使用 Intercom 帮我分析业务数据并推进销售或运营动作。"
     ],
     "brandColor": "#1F8DED",
     "composerIcon": "./assets/logo.png",

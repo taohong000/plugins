@@ -1,7 +1,7 @@
 {
   "name": "biorender",
   "version": "1.0.2",
-  "description": "BioRender helps scientists create professional figures in minutes.",
+  "description": "帮助科研人员快速创建专业科学图示",
   "author": {
     "url": "https://biorender.com/",
     "name": "BioRender"
@@ -13,15 +13,15 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "BioRender",
-    "shortDescription": "BioRender helps scientists create professional figures in minutes.",
-    "longDescription": "BioRender helps scientists create professional figures in minutes. Access thousands of scientifically accurate templates and icons directly in Codex to visualize protocols, pathways, molecular structures, and more. Brainstorm with your team, communicate research concepts, or build publication-ready figures for presentations, manuscripts, grant proposals, and posters.",
+    "shortDescription": "帮助科研人员快速创建专业科学图示",
+    "longDescription": "在 Codex 中使用 BioRender：帮助科研人员快速创建专业科学图示。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Creativity",
     "capabilities": [],
     "websiteURL": "https://biorender.com/",
     "privacyPolicyURL": "https://biorender.com/privacy",
     "termsOfServiceURL": "https://www.biorender.com/terms-of-service",
     "defaultPrompt": [
-      "Can you find me some GLP-1 diagram templates"
+      "使用 BioRender 帮我创建、查找或优化相关创意素材。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

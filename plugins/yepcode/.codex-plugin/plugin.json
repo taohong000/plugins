@@ -1,7 +1,7 @@
 {
   "name": "yepcode",
   "version": "1.0.3",
-  "description": "YepCode lets you build custom AI tools using your own code with JSON Schema-defined inputs, executed in an...",
+  "description": "用自有代码和 JSON Schema 输入构建自定义 AI 工具",
   "author": {
     "name": "YepCode S.L.",
     "url": "https://yepcode.io/"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "YepCode",
-    "shortDescription": "YepCode lets you build custom AI tools using your own code with JSON Schema-defined inputs, executed in an...",
-    "longDescription": "YepCode lets you build custom AI tools using your own code with JSON Schema-defined inputs, executed in an isolated sandbox with access to any npm or PyPI package and secure environment variables.\n\nDefine reusable processes in Node.js or Python, expose them as callable AI tools, and execute them on demand or on a schedule. Every run is logged and auditable, enabling traceable, production-grade AI integrations.\n\nBuilt for developers who need programmable, observable AI tool execution.",
+    "shortDescription": "用自有代码和 JSON Schema 输入构建自定义 AI 工具",
+    "longDescription": "在 Codex 中使用 YepCode：用自有代码和 JSON Schema 输入构建自定义 AI 工具。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "YepCode S.L.",
     "category": "Developer Tools",
     "capabilities": [],
     "defaultPrompt": [
-      "Find the relevant YepCode workflow context"
+      "使用 YepCode 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "screenshots": [],
     "websiteURL": "https://yepcode.io/",

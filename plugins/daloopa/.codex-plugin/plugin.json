@@ -1,7 +1,7 @@
 {
   "name": "daloopa",
   "version": "1.0.3",
-  "description": "Financial analysis skills powered by Daloopa's institutional-grade data.",
+  "description": "机构级金融分析工作流",
   "author": {
     "name": "Daloopa",
     "url": "https://daloopa.com"
@@ -20,8 +20,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Daloopa",
-    "shortDescription": "Institutional-grade financial analysis workflows.",
-    "longDescription": "Use Daloopa MCP data to create cited company tearsheets, earnings reviews, valuation work, comp sheets, research notes, and banking-style analysis outputs.",
+    "shortDescription": "机构级金融分析工作流",
+    "longDescription": "在 Codex 中使用 Daloopa：机构级金融分析工作流。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Daloopa",
     "category": "Finance",
     "capabilities": [
@@ -34,9 +34,7 @@
     "termsOfServiceURL": "https://daloopa.com/terms-of-use",
     "brandColor": "#1B2A4A",
     "defaultPrompt": [
-      "Create a tearsheet for AAPL.",
-      "Review MSFT earnings and guidance.",
-      "Build a DCF valuation for NVDA."
+      "使用 Daloopa 查询相关金融数据，并整理关键结论。"
     ],
     "composerIcon": "./assets/app-icon.png",
     "logo": "./assets/app-icon.png"

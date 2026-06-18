@@ -1,7 +1,7 @@
 {
   "name": "calendly",
   "version": "1.0.2",
-  "description": "Search Calendly events and availability so Codex can reason about meetings and scheduling.",
+  "description": "搜索 Calendly 会议、事件和可用时间",
   "author": {
     "name": "Calendly",
     "url": "https://calendly.com"
@@ -20,8 +20,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Calendly",
-    "shortDescription": "Search Calendly meetings, events, and availability.",
-    "longDescription": "Calendly connects Codex to your scheduling workflows so you can inspect upcoming meetings, review event details, reason about availability, and summarize attendee follow-ups.",
+    "shortDescription": "搜索 Calendly 会议、事件和可用时间",
+    "longDescription": "在 Codex 中使用 Calendly：搜索 Calendly 会议、事件和可用时间。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Calendly",
     "category": "Productivity",
     "capabilities": [],
@@ -30,9 +30,7 @@
     "termsOfServiceURL": "https://calendly.com/legal/customer-terms-conditions",
     "brandColor": "#006BFF",
     "defaultPrompt": [
-      "Find my upcoming Calendly meetings and summarize who I am meeting with.",
-      "Check Calendly availability for this week and suggest open meeting slots.",
-      "Review recent Calendly events and summarize attendee details and follow-ups."
+      "使用 Calendly 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/app-icon.png",

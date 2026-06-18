@@ -1,7 +1,7 @@
 {
   "name": "build-ios-apps",
   "version": "0.1.2",
-  "description": "Build iOS apps with workflows for App Intents, SwiftUI UI work, Simulator mirroring in the Codex in-app browser, performance profiling, leak investigation, and simulator debugging.",
+  "description": "使用 App Intents、SwiftUI 和 Xcode 流程构建、优化和调试 iOS 应用",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -27,8 +27,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Build iOS Apps",
-    "shortDescription": "Build, refine, and debug iOS apps with App Intents, SwiftUI, and Xcode workflows",
-    "longDescription": "Use Build iOS Apps to design App Intents and App Shortcuts, build or refactor SwiftUI UI, render SwiftUI previews in the Codex in-app browser, adopt modern iOS patterns such as Liquid Glass, audit runtime performance, capture ETTrace profiles, investigate memory leaks, and debug apps on simulators with XcodeBuildMCP-backed workflows.",
+    "shortDescription": "使用 App Intents、SwiftUI 和 Xcode 流程构建、优化和调试 iOS 应用",
+    "longDescription": "在 Codex 中使用 Build iOS Apps：使用 App Intents、SwiftUI 和 Xcode 流程构建、优化和调试 iOS 应用。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Developer Tools",
     "capabilities": [
@@ -40,7 +40,7 @@
     "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
     "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
     "defaultPrompt": [
-      "Build or debug an iOS app with SwiftUI, App Intents, and Simulator."
+      "使用 Build iOS Apps 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#0A84FF",
     "composerIcon": "./assets/build-ios-apps-small.svg",

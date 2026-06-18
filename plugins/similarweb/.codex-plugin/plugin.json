@@ -1,7 +1,7 @@
 {
   "name": "similarweb",
   "version": "1.0.2",
-  "description": "Digital market intelligence and web traffic analytics",
+  "description": "数字市场情报和网站流量分析",
   "author": {
     "name": "Similarweb",
     "url": "https://www.similarweb.com"
@@ -13,15 +13,13 @@
   "interface": {
     "displayName": "Similarweb",
     "developerName": "Similarweb",
-    "shortDescription": "Digital market intelligence and web traffic analytics",
-    "longDescription": "Digital market intelligence and web traffic analytics",
+    "shortDescription": "数字市场情报和网站流量分析",
+    "longDescription": "在 Codex 中使用 Similarweb：数字市场情报和网站流量分析。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Data & Analytics",
     "capabilities": [],
     "brandColor": "#F07028",
     "defaultPrompt": [
-      "Analyze traffic trends for example.com versus its top competitors over the last six months.",
-      "Find the top acquisition channels and referring sites for example.com and summarize growth opportunities.",
-      "Compare audience geography and search keywords for example.com and a competitor."
+      "使用 Similarweb 帮我分析数据并总结洞察。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

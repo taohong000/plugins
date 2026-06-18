@@ -1,7 +1,7 @@
 {
   "name": "zoho",
   "version": "1.0.3",
-  "description": "CRM records, deals, contacts, and account context from Zoho",
+  "description": "来自 Zoho 的 CRM 记录、交易、联系人和账户上下文",
   "author": {
     "name": "Zoho",
     "url": "https://www.zoho.com"
@@ -13,16 +13,14 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Zoho",
-    "shortDescription": "CRM records, deals, contacts, and account context from Zoho",
-    "longDescription": "CRM records, deals, contacts, and account context from Zoho",
+    "shortDescription": "来自 Zoho 的 CRM 记录、交易、联系人和账户上下文",
+    "longDescription": "在 Codex 中使用 Zoho：来自 Zoho 的 CRM 记录、交易、联系人和账户上下文。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Zoho",
     "category": "Business & Operations",
     "capabilities": [],
     "websiteURL": "https://www.zoho.com",
     "defaultPrompt": [
-      "Search Zoho CRM for open deals closing this quarter and summarize the highest-risk opportunities.",
-      "Find Zoho CRM contacts at an account and summarize recent activities.",
-      "Pull Zoho CRM organization settings and users needed to audit access."
+      "使用 Zoho 帮我分析业务数据并推进销售或运营动作。"
     ],
     "brandColor": "#0068B8",
     "composerIcon": "./assets/logo.png",

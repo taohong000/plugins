@@ -1,7 +1,7 @@
 {
   "name": "wix",
   "version": "1.1.2",
-  "description": "Build and deploy Wix apps and headless websites, and manage your Wix business. Includes CLI development skills, Wix Headless for any frontend framework, and Wix MCP server for eCommerce, CMS, dashboard extensions, and more.",
+  "description": "构建 Wix 应用、无头网站并管理 Wix 业务",
   "author": {
     "name": "Wix",
     "url": "https://dev.wix.com"
@@ -23,8 +23,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Wix",
-    "shortDescription": "Build Wix apps, headless websites, and manage your Wix business from Codex",
-    "longDescription": "Build and deploy Wix apps and headless websites, and manage your Wix business with Codex. Includes Wix CLI development skills for dashboard extensions, backend APIs, site widgets, service plugins, and data collections. Build headless websites with Wix Headless — from fully-hosted Astro apps to self-hosted in any framework — powered by Wix's backend for eCommerce, bookings, CMS, events, and members. Also includes recipes for Wix business solution management.",
+    "shortDescription": "构建 Wix 应用、无头网站并管理 Wix 业务",
+    "longDescription": "在 Codex 中使用 Wix：构建 Wix 应用、无头网站并管理 Wix 业务。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Wix",
     "category": "Developer Tools",
     "capabilities": [
@@ -36,9 +36,7 @@
     "privacyPolicyURL": "https://www.wix.com/about/privacy",
     "termsOfServiceURL": "https://www.wix.com/about/terms-of-use",
     "defaultPrompt": [
-      "Build a Wix app extension with Wix Design System UI",
-      "Build a Wix app with a shipping fee service plugin",
-      "Set up Wix Stores products, pickup, or CMS data"
+      "使用 Wix 帮我完成开发、调试、部署或项目维护任务。"
     ],
     "brandColor": "#116DFF",
     "composerIcon": "./assets/logo.svg",

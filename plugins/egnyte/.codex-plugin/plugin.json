@@ -1,7 +1,7 @@
 {
   "name": "egnyte",
   "version": "1.0.3",
-  "description": "Work with documents and files stored in Egnyte directly from Codex.",
+  "description": "直接从 Codex 处理 Egnyte 中的文档和文件",
   "author": {
     "url": "https://www.egnyte.com",
     "name": "Egnyte Inc"
@@ -13,15 +13,15 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Egnyte",
-    "shortDescription": "Work with documents and files stored in Egnyte directly from Codex.",
-    "longDescription": "Work with documents and files stored in Egnyte directly from Codex. Search across folders, retrieve relevant files, and extract key information to answer questions or generate summaries.\n\nQuickly surface insights from contracts, reports, and internal documents. Combine information from multiple files to create concise summaries, stakeholder updates, or draft written content grounded in your team\u2019s internal materials.",
+    "shortDescription": "直接从 Codex 处理 Egnyte 中的文档和文件",
+    "longDescription": "在 Codex 中使用 Egnyte：直接从 Codex 处理 Egnyte 中的文档和文件。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "category": "Productivity",
     "capabilities": [],
     "websiteURL": "https://www.egnyte.com",
     "privacyPolicyURL": "https://www.egnyte.com/privacy-policy",
     "termsOfServiceURL": "https://www.egnyte.com/terms-and-conditions/10-2022",
     "defaultPrompt": [
-      "What IT contracts do we have"
+      "使用 Egnyte 帮我检索信息、整理上下文并推进后续操作。"
     ],
     "screenshots": [],
     "composerIcon": "./assets/logo.png",

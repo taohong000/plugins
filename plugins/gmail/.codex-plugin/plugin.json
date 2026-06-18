@@ -1,7 +1,7 @@
 {
   "name": "gmail",
   "version": "0.1.3",
-  "description": "Work with Gmail using the configured Gmail app connector.",
+  "description": "读取和管理 Gmail",
   "author": {
     "name": "OpenAI",
     "email": "support@openai.com",
@@ -19,8 +19,8 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Gmail",
-    "shortDescription": "Read and manage Gmail",
-    "longDescription": "Use Gmail to summarize inbox activity, draft replies, and organize email threads through the connected Gmail app.",
+    "shortDescription": "读取和管理 Gmail",
+    "longDescription": "在 Codex 中使用 Gmail：读取和管理 Gmail。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "OpenAI",
     "category": "Communication",
     "capabilities": [
@@ -31,7 +31,7 @@
     "privacyPolicyURL": "https://policies.google.com/privacy",
     "termsOfServiceURL": "https://policies.google.com/terms",
     "defaultPrompt": [
-      "Summarize inbox, draft replies, or process email threads"
+      "使用 Gmail 帮我总结沟通内容并草拟后续跟进。"
     ],
     "brandColor": "#EA4335",
     "composerIcon": "./assets/gmail-small.svg",

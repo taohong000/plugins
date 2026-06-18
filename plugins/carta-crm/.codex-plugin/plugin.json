@@ -1,7 +1,7 @@
 {
   "name": "carta-crm",
   "version": "1.0.3",
-  "description": "Carta CRM helps investment teams stay on top of deal flow by keeping deals, companies, and relationships in...",
+  "description": "帮助投资团队集中管理交易流、公司和关系",
   "author": {
     "name": "Carta Inc.",
     "url": "https://carta.com"
@@ -12,13 +12,13 @@
   "apps": "./.app.json",
   "interface": {
     "displayName": "Carta CRM",
-    "shortDescription": "Carta CRM helps investment teams stay on top of deal flow by keeping deals, companies, and relationships in...",
-    "longDescription": "Carta CRM helps investment teams stay on top of deal flow by keeping deals, companies, and relationships in one place. Track opportunities through each stage, capture meeting notes and key takeaways alongside the right deal or contact, and quickly find past context when you need it.",
+    "shortDescription": "帮助投资团队集中管理交易流、公司和关系",
+    "longDescription": "在 Codex 中使用 Carta CRM：帮助投资团队集中管理交易流、公司和关系。它会将相关服务能力带入对话，帮助你更快检索上下文、整理信息并完成下一步工作。",
     "developerName": "Carta Inc.",
     "category": "Business & Operations",
     "capabilities": [],
     "defaultPrompt": [
-      "Find the latest relationship context in Carta CRM"
+      "使用 Carta CRM 帮我分析业务数据并推进销售或运营动作。"
     ],
     "screenshots": [],
     "websiteURL": "https://carta.com",
