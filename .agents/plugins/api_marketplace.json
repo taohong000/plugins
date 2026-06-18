@@ -1,7 +1,7 @@
 {
-  "name": "openai-api-curated",
+  "name": "hongtao-api-curated",
   "interface": {
-    "displayName": "Codex official"
+    "displayName": "Hongtao API curated"
   },
   "plugins": [
     {
