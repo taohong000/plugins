@@ -1,6 +1,6 @@
 {
   "name": "render",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "在 Render 上部署、调试、监控和迁移应用",
   "author": {
     "name": "Render",

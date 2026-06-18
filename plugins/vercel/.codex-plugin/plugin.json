@@ -1,6 +1,6 @@
 {
   "name": "vercel",
-  "version": "0.21.2",
+  "version": "0.21.3",
   "description": "构建并部署 Web 应用和智能体",
   "author": {
     "name": "Vercel Labs",

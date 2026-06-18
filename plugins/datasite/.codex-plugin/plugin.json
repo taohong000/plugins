@@ -1,6 +1,6 @@
 {
   "name": "datasite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "交易室文档、尽调材料和问答工作流",
   "author": {
     "name": "Datasite",
@@ -9,6 +9,7 @@
   "repository": "https://github.com/openai/plugins",
   "license": "MIT",
   "keywords": [],
+  "skills": "./skills/",
   "apps": "./.app.json",
   "interface": {
     "displayName": "Datasite",
