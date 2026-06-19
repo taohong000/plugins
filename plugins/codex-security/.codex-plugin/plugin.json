@@ -1,6 +1,6 @@
 {
   "name": "codex-security",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "为代码库执行安全扫描",
   "author": {
     "name": "OpenAI"
@@ -16,6 +16,8 @@
     "threat-modeling"
   ],
   "skills": "./skills/",
+  "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Codex Security",
     "shortDescription": "为代码库执行安全扫描",
