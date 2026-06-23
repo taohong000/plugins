@@ -1,6 +1,6 @@
 {
   "name": "github",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "处理 PR、Issue、CI 和发布流程",
   "author": {
     "name": "OpenAI",
@@ -20,6 +20,7 @@
   ],
   "skills": "./skills/",
   "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "GitHub",
     "shortDescription": "处理 PR、Issue、CI 和发布流程",

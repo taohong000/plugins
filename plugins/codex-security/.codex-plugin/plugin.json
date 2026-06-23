@@ -1,6 +1,6 @@
 {
   "name": "codex-security",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "为代码库执行安全扫描",
   "author": {
     "name": "OpenAI"
